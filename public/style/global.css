@@ -1,0 +1,200 @@
+:root {
+    --clr-accent-100: #FF033E;
+    --clr-accent-60: #FF033E60;
+    --clr-accent-40: #FF033E40;
+
+    --clr-secondary-accent-100: #3f5efb;
+    --clr-secondary-accent-60: #3f5efb60;
+    --clr-secondary-accent-40: #3f5efb40;
+
+    --clr-primary-100: #110101;
+    --clr-primary-60: #11010160;
+    --clr-primary-40: #11010140;
+    --clr-primary-20: #11010120;
+
+    --clr-neutral-100: #fffdfd;
+    --clr-neutral-60: #fffdfd60;
+    --clr-neutral-40: #fffdfd40;
+
+    --gradient-main: linear-gradient(33deg, var(--clr-secondary-accent-100) 0%, var(--clr-accent-100) 100%);
+
+    --ff-body: 'Nunito', sans-serif;
+    --ff-heading: 'Josephine', sans-serif;
+
+    /* --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-secondary); */
+
+    --fw-light: 200;
+    --fw-regular: 500;
+    --fw-bold: 900;
+
+    --fs-300: 0.8rem;
+    --fs-400: 1rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.563rem;
+    --fs-700: 1.953rem;
+    --fs-800: 2.441rem;
+    --fs-900: 3.052rem;
+
+    --fs-body: var(--fs-400);
+    --fs-btn: var(--fs-300);
+}
+
+@media (min-width: 50em) {
+    :root{
+
+    }
+}
+
+
+/* Utility classes */
+
+.text-gradient {
+    background: var(--clr-secondary-accent-100);
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-neutral-100 {
+    color: var(--clr-neutral-100);
+}
+.text-neutral-60 {
+    color: var(--clr-neutral-60);
+}
+.text-neutral-40 {
+    color: var(--clr-neutral-40);
+}
+
+.text-primary-100 {
+    color: var(--clr-primary-100);
+}
+.text-primary-60 {
+    color: var(--clr-primary-60);
+}
+.text-primary-40 {
+    color: var(--clr-primary-40);
+}
+
+.text-accent-100 {
+    color: var(--clr-accent-100);
+}
+.text-accent-60 {
+    color: var(--clr-accent-60);
+}
+.text-accent-40 {
+    color: var(--clr-accent-40);
+}
+
+.fw-light{
+    font-weight: var(--fw-light);
+}
+.fw-regular{
+    font-weight: var(--fw-regular);
+}
+.fw-bold{
+    font-weight: var(--fw-bold);
+}
+
+.fs-s {
+    font-size: var(--fs-300);
+}
+
+.fs-m {
+    font-size: var(--fs-400);
+}
+.fs-l {
+    font-size: var(--fs-600);
+}
+.fs-xl {
+    font-size: var(--fs-800);
+}
+.fs-xxl {
+    font-size: var(--fs-900);
+}
+
+.ff-heading {
+    font-family: var(--ff-heading);
+}
+.ff-body {
+    font-family: var(--ff-body);
+}
+
+
+[class*="container"] {
+    position: relative;
+}
+
+[class*="container-flex-row"] {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    place-items: center;
+}
+
+[class*="container-flex-column"] {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    place-items: center;
+}
+
+[class*="container-grid"] {
+    display: grid;
+    justify-content: space-between;
+    gap: 1em;
+}
+[class*="container-grid-auto-columns"] {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+
+[class*="avatar"] {
+    border-radius: 50%;
+}
+
+
+
+[class*="card"] {
+    box-shadow: 0 0 2px var(--clr-primary-60);
+    padding: 1em 2em;
+    width: fit-content;
+    height: fit-content;
+}
+
+[class*="card-round"] {
+    border-radius: 1em;
+}
+
+[class*="full-width"] {
+    width: 100%;
+}
+
+[class*="margin-top-l"] {
+    margin-top: var(--header-height);
+}
+[class*="margin-top-m"] {
+    margin-top: calc(var(--header-height)/2);
+}
+
+* {
+    transition: all 100ms ease-in-out;
+}
+
+/* Font links */
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../lib/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Josephine';
+    src: url(../lib/fonts/Josephine/JosefinSans-VariableFont_wght.ttf);
+}
+
+/* Typography */
+
+body {
+    font-family: Nunito;
+}

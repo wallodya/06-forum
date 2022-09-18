@@ -1,0 +1,60 @@
+.news-feed-container-user {
+    height: 10em;
+}
+
+.user-friends-container {
+    height: fit-content;
+    display: flex;
+    
+}
+
+.avatar-profile {
+    width: 12.5em;
+    height: 12.5em;
+}
+
+.user-info-container {
+    justify-content: flex-start;
+    gap: 3em;
+    margin: var(--header-height) 0;
+    padding: var(--header-height) 2em;
+}
+
+.user-legend-container {
+    align-items: flex-start;
+    height: 100%;
+}
+
+
+
+
+[class*="user-badge"] {
+    min-width: fit-content;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+[class*="user-badge"]:hover {
+    scale: 1.05;
+}
+
+[class*="user-badge"] > .avatar-header {
+    align-self: center;
+}
+
+.badge-info-container, .badge-legend-container {
+    gap: 0;
+    justify-content: space-between;
+}
+
+.badge-legend-container {
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.badge-info-container {
+    align-items: flex-end;
+    justify-self: flex-end;
+}
