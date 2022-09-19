@@ -1,19 +1,25 @@
-const HOST = '62.113.97.215'
-const PORT = 80
+import * as dotenv from 'dotenv'
+dotenv.config()
 
-const express = require('express')
-const fs = require('fs')
-const urlencodedParser = express.urlencoded({extended: false})
+import express from 'express'
+import fs from 'fs'
+
+const HOST = process.env.VITE_HOST
+const PORT = process.env.PORT_HTTP
+
 const app = express()
-app.use(express.static('.'))
+const urlencodedParser = express.urlencoded({extended: false})
+app.use(express.static('./dist'))
 app.use(express.urlencoded({extended: true}))
 
+
 app.get('*', (req, res) => {
-    fs.readFile('./index.html', 'utf8', (err, data) => {
+    fs.readFile('./dist/index.html', 'utf8', (err, data) => {
         if (err) throw err
         res.send(data)
     })
 })
+
 
 app.listen(PORT, HOST, () => {
     console.log(`Listening to ${HOST}:${PORT}`)
