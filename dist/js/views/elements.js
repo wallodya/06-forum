@@ -1,3 +1,8 @@
+import { getUsersData } from "../sockets"
+import { getOnlineStatus } from "../sockets"
+import { renderPath } from "../router"
+
+
 export class Element {
     constructor(_tag, _classList, _attrList, _text, _children) {
         this.tag = _tag ?? 'div'
@@ -56,6 +61,11 @@ export class Button extends Element {
         this.type = _type ?? 'primary'
     }
 }
+export class OnlineStatus extends Element{
+    constructor(_userId, _classList) {
+        super('p', _classList, {id: _userId})
+    }
+}
 
 export class UserBadge extends Container {
     constructor (_userInfo, _attrList, _isOnAdminPage=false, _isDeleted=false) {
@@ -73,16 +83,16 @@ export class UserBadge extends Container {
             null,
             _userInfo.userName
         ).__init__()
-        const status = new Element(
-            'p',
-            ['ff-body', 'fs-s', 'fw-light', 'text-primary-40'],
-            null,
-            'online'
+
+        let status = new OnlineStatus(
+            _attrList.id,
+            ['ff-body', 'fs-xs', 'fw-light', 'text-primary-40'],
         ).__init__()
+
         const legendContainer = new Container(
             [username, status],
             ['container-flex-column', 'badge-legend-container']
-            ).__init__()
+        ).__init__()
         
         const bannedBadge = new Element(
             'p',
@@ -201,3 +211,22 @@ export class Post extends Element {
         super ()
     }
 }
+
+
+export const loadUserBadges = (_users, _container, _isOnAdminPage=false) => {
+    console.log('isArray: ', Array.isArray(_users))
+    getUsersData(_users)
+    .then(data => {
+        let p = Promise.resolve()
+        for (let userId in data) {
+            const userBadge = new UserBadge(data[userId], {id: `${userId}`}, _isOnAdminPage).__init__()
+            p = p.then(() => getOnlineStatus(userId))
+            .then(status => userBadge.childNodes[1].childNodes[1].innerText = status)
+            .catch(status => userBadge.childNodes[1].childNodes[1].innerText = status)
+            userBadge.onclick = () => {
+                renderPath(false, '/user' + userId)
+            }
+            _container.append(userBadge)
+        }
+    })
+} 

@@ -120,7 +120,7 @@ const DB_TEST = {
      isAdmin: true,
      avatarLink: '../lib/img/default_prof_pic.png',
      friendList: [ '000002', '000003', '000004', '000005' ],
-     isBanned: true },
+     isBanned: false },
   '000002':
    { userName: 'user123',
      name: 'John',
@@ -128,7 +128,7 @@ const DB_TEST = {
      isAdmin: false,
      avatarLink: '../lib/img/default_prof_pic.png',
      friendList: [ '000001', '000003', '000004', '000005' ],
-     isBanned: true },
+     isBanned: false },
   '000003':
    { userName: '_ivan_',
      name: 'Иван Иванов',
@@ -136,7 +136,7 @@ const DB_TEST = {
      isAdmin: false,
      avatarLink: '../lib/img/default_prof_pic.png',
      friendList: [ '000001', '000002', '000004', '000005' ],
-     isBanned: true },
+     isBanned: false },
   '000004':
    { userName: 'random_user',
      name: 'John Smith',
@@ -144,7 +144,7 @@ const DB_TEST = {
      isAdmin: false,
      avatarLink: '../lib/img/default_prof_pic.png',
      friendList: [ '000001', '000002', '000003', '000005' ],
-     isBanned: true },
+     isBanned: false },
   '000005':
    { userName: 'Dude',
      name: 'Имя Фамилия',
@@ -152,7 +152,7 @@ const DB_TEST = {
      isAdmin: false,
      avatarLink: '../lib/img/default_prof_pic.png',
      friendList: [ '000001', '000002', '000003', '000004' ],
-     isBanned: true },
+     isBanned: false },
   '000006':
    { userName: '_000006_',
      name: '000006\'s name',

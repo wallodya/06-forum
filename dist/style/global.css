@@ -96,6 +96,10 @@
     font-weight: var(--fw-bold);
 }
 
+.fs-xs {
+    font-size: var(--fs-300);
+}
+
 .fs-s {
     font-size: var(--fs-300);
 }
@@ -145,7 +149,7 @@
     gap: 1em;
 }
 [class*="container-grid-auto-columns"] {
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 

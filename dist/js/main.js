@@ -1,10 +1,12 @@
 import * as Renderer from './views/renderer.js'
 import * as Cookies from './cookies.js'
 const user = Cookies.userId ?? null
+import { socket } from "./sockets.js"
 
-console.log('Env var test:' + import.meta.env.VITE_HOST +  ' ' + import.meta.env.VITE_TEST )
-console.log('dotenv:')
-console.dir(import.meta.env)
+console.log('User: ', user)
 
+console.log('LS: ')
+console.log(localStorage)
 
-Renderer.renderPage(user)
+Cookies.addUserToLocalStorage(user)
+    .then(() => Renderer.renderPage(user))
