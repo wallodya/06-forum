@@ -1,1 +1,86 @@
 Listening to 62.113.97.215:80
+Listening to 62.113.97.215:80
+Request data for one user: 000001
+Request for every users data
+Request data for one user: 000003
+Request for data of following users: 000001,000002,000004,000005
+Request for data of following users: 000002,000003,000004,000005
+Request data for one user: 000001
+Request for data of following users: 000002,000003,000004,000005
+Request for data of following users: 000002,000003,000004,000005
+Request for every users data
+Request data for one user: 000008
+Request for data of following users: 000007,000006,000005,000004,000003
+Request data for one user: 000005
+Request for data of following users: 000001,000002,000003,000004
+Request data for one user: 000004
+Request for data of following users: 000001,000002,000003,000005
+Request for data of following users: 000002,000003,000004,000005
+Request data for one user: 000003
+Request for data of following users: 000001,000002,000004,000005
+Request data for one user: 000005
+Request for data of following users: 000001,000002,000003,000004
+Request data for one user: 000003
+Request for data of following users: 000001,000002,000004,000005
+Request for data of following users: 000002,000003,000004,000005
+Request data for one user: 000003
+Request for data of following users: 000001,000002,000004,000005
+Request data for one user: 000005
+Request for data of following users: 000001,000002,000003,000004
+Request for every users data
+Request data for one user: 000003
+Request for data of following users: 000001,000002,000004,000005
+Request for every users data
+Request data for one user: 000002
+Request for data of following users: 000001,000003,000004,000005
+Request data for one user: 000003
+Request for data of following users: 000001,000002,000004,000005
+Request data for one user: 000004
+Request for data of following users: 000001,000002,000003,000005
+Request data for one user: 000001
+Request data for one user: 000004
+Request for data of following users: 000001,000002,000003,000005
+Request data for one user: 000002
+Request for data of following users: 000001,000003,000004,000005
+Request data for one user: 000004
+Request for data of following users: 000001,000002,000003,000005
+Request for every users data
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::6002
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at Server.attach (/var/www/inst.souta.ru/node_modules/socket.io/dist/index.js:180:17)
+    at Server.listen (/var/www/inst.souta.ru/node_modules/socket.io/dist/index.js:153:21)
+    at file:///var/www/inst.souta.ru/app.js:109:4
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:541:24)
+    at async loadESM (node:internal/process/esm_loader:91:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1459:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 6002
+}
+
+Node.js v18.7.0
+Request data for one user: 000001
+Listening to 62.113.97.215:80
+Request data for one user: 000001
+Request for every users data
+Request data for one user: 000001
+Request for every users data
+Request data for one user: 000001
+Request data for one user: 000001
+Request for data of following users: 000002,000003,000004,000005
+Request for data of following users: 000002,000003,000004,000005
+Request for data of following users: 000002,000003,000004,000005
+Request for data of following users: 000002,000003,000004,000005
+Request data for one user: 000001
