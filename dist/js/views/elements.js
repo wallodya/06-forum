@@ -74,14 +74,14 @@ export class UserBadge extends Container {
             'div',
             ['avatar-header']
         ).__init__()
-        avatar.style.background =  `center/contain no-repeat url(${_userInfo.avatarLink})`
+        avatar.style.background =  `center/contain no-repeat url(${_userInfo.avatar})`
         badgeContent.push(avatar)
 
         const username = new Element(
             'p',
             ['ff-body', 'fs-s', 'fw-regular', 'text-primary-100'],
             null,
-            _userInfo.userName
+            _userInfo.user_login
         ).__init__()
 
         let status = new OnlineStatus(
@@ -218,9 +218,11 @@ export const loadUserBadges = (_users, _container, _isOnAdminPage=false) => {
     getUsersData(_users)
     .then(data => {
         let p = Promise.resolve()
-        for (let userId in data) {
-            const userBadge = new UserBadge(data[userId], {id: `${userId}`}, _isOnAdminPage).__init__()
-            p = p.then(() => getOnlineStatus(userId))
+        console.log('data:')
+        console.log(data);
+        for (let user of data) {
+            const userBadge = new UserBadge(user, {id: `${user.id}`}, _isOnAdminPage).__init__()
+            p = p.then(() => getOnlineStatus(user.id))
             .then(status => userBadge.childNodes[1].childNodes[1].innerText = status)
             .catch(status => userBadge.childNodes[1].childNodes[1].innerText = status)
             userBadge.onclick = () => {
@@ -229,4 +231,5 @@ export const loadUserBadges = (_users, _container, _isOnAdminPage=false) => {
             _container.append(userBadge)
         }
     })
+    .catch(err => console.log('Error in loadUserBadges: ', err))
 } 

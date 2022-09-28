@@ -1,10 +1,13 @@
 import express from 'express'
 import fs from 'fs'
 import { Server } from "socket.io"
+import pg from 'pg'
+const { Pool } = pg
 import * as dotenv from 'dotenv'
 dotenv.config()
 
 const HOST = process.env.VITE_HOST
+const HOST_DB = process.env.HOST_DB
 const PORT = process.env.PORT_HTTP
 const PORT_SOCKET = process.env.VITE_PORT_SOCKET
 const app = express()
@@ -16,6 +19,15 @@ const io = new Server({
         origin: '*'
     }
 })
+const pool = new Pool({
+  user: 'root',
+  password: '1234',
+  database: 'root'
+})
+
+pool.query('SELECT user_password FROM "users" WHERE id = 1')
+  .then(res => {console.log('RES: ', res.rows[0].user_password)})
+  .catch(err => {console.log('ERR: ', err)})
 
 app.get('*', (req, res) => {
     fs.readFile('./dist/index.html', 'utf8', (err, data) => {
@@ -25,7 +37,7 @@ app.get('*', (req, res) => {
 })
 
 io.on('connection', (socket) => {
-    // console.log('User connected, socket id: ', socket.id)
+    console.log('User connected, socket id: ', socket.id)
 
     socket.on('logoutReq', (userId) => {
         console.log(`User ${userId} logged out`)
@@ -33,27 +45,58 @@ io.on('connection', (socket) => {
     })
 
     socket.on('loginSubmit', (data) => {
-        console.log(
-            `User tries to loggin\n
-            Login: ${data.login}\n
-            Password: ${data.password}`
-        )
-        // User authentification
-        socket.emit('loginSuccess')
+        pool.query({
+          text: `SELECT * FROM "users" WHERE user_login = $1`, 
+          values: [data.login]
+        })
+          .then(res => {
+            console.log('Res.rows: ', !!res.rows[0])
+            if (res.rows[0]) {
+              if (data.password === res.rows[0].user_password) {
+                console.log('User logged in')
+                socket.emit('loginSuccess', res.rows[0].id)
+              } else {
+                socket.emit('loginFail', 'wrong_password')
+              }
+            } else {
+              socket.emit('loginFail', 'login_not_exist')
+            }
+          })
+          .catch(err => console.log(err))
     })
 
     socket.on('createAccount', (data) => {
         console.log(
             `New account created:\n
             Login: ${data.login}\n
-            Name: ${data.email}\n
+            Name: ${data.name}\n
             E-mail: ${data.email}\n
             Password: ${data.password}`
         )
-        // Adding new user to DB, gives user unique ID
-        const newUserId = "010203"
+        pool.query({
+          text : `INSERT INTO users(user_login, user_name, email, user_password)
+                  VALUES ($1, $2, $3, $4)`,
+          values: [data.login, data.name, data.email, data.password]
+        }).then(() => {
+              pool.query({
+                text : 'SELECT id FROM users WHERE user_login = $1',
+                values : [data.login]
+              })
+              .then(res => {
+                const newUUID = res.rows[0].id
+                console.log('New UUID: ', newUUID)
+                socket.emit('accountCreated', newUUID)
+              })              
+              .catch(err => console.log(err))
+            }
+          )
+          .catch(
+            err => err.constraint === 'unique_login'
+             ? socket.emit('createAccountFailed', 'login_not_unique')
+             : socket.emit('createAccountFailed', err)
+          )
 
-        socket.emit('accountCreated', newUserId)
+        // socket.emit('accountCreated', newUserId)
         })
 
     socket.on('getOnlineStatus', (userId) => {
@@ -70,23 +113,35 @@ io.on('connection', (socket) => {
         switch (true) {
             case _userIds === 'all' : {
                 console.log('Request for every users data')
-                const data = DB_TEST
-                socket.emit(`sendUsersDataFor${_userIds}`, data)
+                pool.query('SELECT * FROM users').then(data => {
+                  console.log('All users: ', data.rows)
+                  socket.emit(`sendUsersDataFor${_userIds}`, data.rows)
+                })
                 break
             }
             case !Array.isArray(_userIds) : {
                 console.log(`Request data for one user: ${_userIds}`)
-                const data = DB_TEST[_userIds]
-                socket.emit(`sendUsersDataFor${_userIds}`, data)
+                pool.query({
+                  text: 'SELECT * FROM users WHERE id = $1',
+                  values: [_userIds]
+                }).then(data => {
+                  const userInfo = data.rows[0]
+                  getFriendList(_userIds)
+                  .then((friends => {
+                    userInfo.friend_list = friends
+                    console.log('User info: ', userInfo)
+                    socket.emit(`sendUsersDataFor${_userIds}`, userInfo)
+                  }))
+                }).catch(err => console.log(err))
                 break
             }
             case Array.isArray(_userIds) : {
                 console.log(`Request for data of following users: ${_userIds}`)
+                console.log(_userIds)
+                console.log(_userIds.toString())
                 const data = {}
-                for (let userId of _userIds) {
-                    data[userId] = DB_TEST[userId]
-                }
-                socket.emit(`sendUsersDataFor${_userIds}`, data)
+
+                // socket.emit(`sendUsersDataFor${_userIds}`, data)
             }
         }
     })
@@ -110,7 +165,22 @@ io.listen(process.env.VITE_PORT_SOCKET, () => {
     console.log(`Socket listens to ${HOST}:${PORT_SOCKET}`)
 })
 
-
+const getFriendList = _UUID => {
+  return new Promise((resolve, reject) => {
+    pool.query({
+      text: `SELECT first_friend, second_friend FROM friends
+            WHERE first_friend = $1 OR second_friend = $1`,
+      values: [_UUID]
+    })
+    .then( data => {
+      console.log('data.rows: ')
+      console.log(data.rows)
+      const friends = data.rows.map(friend => friend = friend.first_friend != _UUID && friend.first_friend || friend.second_friend)
+      resolve(friends)
+    })
+    .catch(err => console.log(err))
+  })
+}
 
 const DB_TEST = { 
     '000001':
@@ -145,8 +215,8 @@ const DB_TEST = {
      avatarLink: '../lib/img/default_prof_pic.png',
      friendList: [ '000001', '000002', '000003', '000005' ],
      isBanned: false },
-  '000005':
-   { userName: 'Dude',
+     '000005':
+     { userName: 'Dude',
      name: 'Имя Фамилия',
      email: 'qwerty@test.com',
      isAdmin: false,
