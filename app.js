@@ -25,10 +25,6 @@ const pool = new Pool({
   database: 'root'
 })
 
-pool.query('SELECT user_password FROM "users" WHERE id = 1')
-  .then(res => {console.log('RES: ', res.rows[0].user_password)})
-  .catch(err => {console.log('ERR: ', err)})
-
 app.get('*', (req, res) => {
     fs.readFile('./dist/index.html', 'utf8', (err, data) => {
         if (err) throw err
@@ -114,6 +110,7 @@ io.on('connection', (socket) => {
 
     socket.on('getUsersData', (_userIds) => {
         switch (true) {
+            case !_userIds || !_userIds[0]: break
             case _userIds === 'all' : {
                 console.log('Request for every users data')
                 pool.query('SELECT * FROM users').then(data => {
