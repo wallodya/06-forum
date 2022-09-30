@@ -42,62 +42,65 @@ io.on('connection', (socket) => {
     socket.on('logoutReq', (userId) => {
         console.log(`User ${userId} logged out`)
         socket.emit('logoutRes', userId)
-    })
+      }
+    )
 
     socket.on('loginSubmit', (data) => {
         pool.query({
           text: `SELECT * FROM "users" WHERE user_login = $1`, 
           values: [data.login]
         })
-          .then(res => {
-            console.log('Res.rows: ', !!res.rows[0])
-            if (res.rows[0]) {
-              if (data.password === res.rows[0].user_password) {
-                console.log('User logged in')
-                socket.emit('loginSuccess', res.rows[0].id)
-              } else {
-                socket.emit('loginFail', 'wrong_password')
-              }
+        .then(res => {
+          console.log('Res.rows: ', !!res.rows[0])
+          if (res.rows[0]) {
+            if (data.password === res.rows[0].user_password) {
+              console.log('User logged in')
+              socket.emit('loginSuccess', res.rows[0].id)
             } else {
-              socket.emit('loginFail', 'login_not_exist')
+              socket.emit('loginFail', 'wrong_password')
             }
-          })
-          .catch(err => console.log(err))
-    })
+          } else {
+            socket.emit('loginFail', 'login_not_exist')
+          }
+        })
+        .catch(err => console.log(err))
+      }
+    )
 
     socket.on('createAccount', (data) => {
-        console.log(
-            `New account created:\n
-            Login: ${data.login}\n
-            Name: ${data.name}\n
-            E-mail: ${data.email}\n
-            Password: ${data.password}`
-        )
-        pool.query({
-          text : `INSERT INTO users(user_login, user_name, email, user_password)
-                  VALUES ($1, $2, $3, $4)`,
-          values: [data.login, data.name, data.email, data.password]
-        }).then(() => {
-              pool.query({
-                text : 'SELECT id FROM users WHERE user_login = $1',
-                values : [data.login]
-              })
-              .then(res => {
-                const newUUID = res.rows[0].id
-                console.log('New UUID: ', newUUID)
-                socket.emit('accountCreated', newUUID)
-              })              
-              .catch(err => console.log(err))
-            }
-          )
-          .catch(
-            err => err.constraint === 'unique_login'
-             ? socket.emit('createAccountFailed', 'login_not_unique')
-             : socket.emit('createAccountFailed', err)
-          )
-
-        // socket.emit('accountCreated', newUserId)
-        })
+      console.log(
+          `New account created:\n
+          Login: ${data.login}\n
+          Name: ${data.name}\n
+          E-mail: ${data.email}\n
+          Password: ${data.password}`
+      )
+      pool.query({
+        text : `INSERT INTO users(user_login, user_name, email, user_password)
+                VALUES ($1, $2, $3, $4)`,
+        values: [data.login, data.name, data.email, data.password]
+      })
+      .then(() => {
+          pool.query({
+            text : 'SELECT id FROM users WHERE user_login = $1',
+            values : [data.login]
+          })
+          .then(res => {
+            const newUUID = res.rows[0].id
+            console.log('New UUID: ', newUUID)
+            socket.emit('accountCreated', newUUID)
+          })              
+          .catch(err => console.log(err))
+        }
+      )
+      .catch(
+        err => err.constraint === 'unique_login'
+         ? socket.emit('createAccountFailed', 'login_not_unique')
+         : socket.emit('createAccountFailed', err)
+      )
+      // socket.emit('accountCreated', newUserId)
+      }
+    )
 
     socket.on('getOnlineStatus', (userId) => {
         // console.log('got status request from ', userId)
@@ -126,24 +129,36 @@ io.on('connection', (socket) => {
                   values: [_userIds]
                 }).then(data => {
                   const userInfo = data.rows[0]
-                  getFriendList(_userIds)
-                  .then((friends => {
-                    userInfo.friend_list = friends
-                    console.log('User info: ', userInfo)
                     socket.emit(`sendUsersDataFor${_userIds}`, userInfo)
-                  }))
                 }).catch(err => console.log(err))
                 break
             }
             case Array.isArray(_userIds) : {
-                console.log(`Request for data of following users: ${_userIds}`)
+                console.log(`Request for data of following users:`)
                 console.log(_userIds)
-                console.log(_userIds.toString())
                 const data = {}
-
-                // socket.emit(`sendUsersDataFor${_userIds}`, data)
+                pool.query({
+                  text: "SELECT * FROM users WHERE id = ANY ($1::int[])",
+                  values: [ _userIds ]
+                  // WHERE IN ANY (ARRAY[1, 6]) works, but we need to find a way to pass a parameter
+                  // then we just need to make a final object and send it
+                })
+                .then(data => {
+                  console.log(`Got data for users ${_userIds}: `)
+                  console.log(data.rows)
+                  socket.emit(`sendUsersDataFor${_userIds}`, data.rows)
+                })
             }
         }
+    })
+
+    socket.on('friendListRequest', _id => {
+      getFriendList(_id)
+        .then(friends => {
+          // console.log('typeof friends: ', typeof(friends))
+          socket.emit('friendListResponse', friends)
+          console.log('Sending friend list: ', friends)
+        })
     })
 
     socket.on(`changeProfileData`, (newData) => {
@@ -173,9 +188,10 @@ const getFriendList = _UUID => {
       values: [_UUID]
     })
     .then( data => {
-      console.log('data.rows: ')
-      console.log(data.rows)
-      const friends = data.rows.map(friend => friend = friend.first_friend != _UUID && friend.first_friend || friend.second_friend)
+      const friends = []
+      console.log('type of friends: ', typeof(friends))
+      data.rows.forEach(friend => friends.push(friend.first_friend != _UUID && friend.first_friend || friend.second_friend))
+      friends.forEach(friend => friend = parseInt(friend))
       resolve(friends)
     })
     .catch(err => console.log(err))
