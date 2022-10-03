@@ -158,11 +158,15 @@ io.on('connection', (socket) => {
               values: [userId]
             })
             .then(res => {
-              socket.emit(`setOnlineStatusFor${userId}`, res.rows[0].last_online)
+              res.rowCount
+              ? socket.emit(`setOnlineStatusFor${userId}`, res.rows[0].last_online)
+              : socket.emit('userDoesntExists')
             })
+            .catch(err => console.log(err))
           }
              
         })
+        .catch(err => console.log(`Error in getOnlineStatus: ${err}`))
 
     })
 

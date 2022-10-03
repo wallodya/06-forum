@@ -35,7 +35,6 @@ export const addUserToLocalStorage = _userId => {
 				getFriendList(_userId)
 				.then(friends => {
 					localStorage.setItem('friend_list', friends)
-					console.log(`Friend list ${friends} added to LS: `, localStorage.friend_list)
 					resolve()
 				})
 			})

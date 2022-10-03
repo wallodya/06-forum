@@ -74,7 +74,10 @@ export class UserBadge extends Container {
             'div',
             ['avatar-header']
         ).__init__()
-        avatar.style.background =  `center/contain no-repeat url(${_userInfo.avatar})`
+
+        _isDeleted
+            ? avatar.style.background = 'center/contain no-repeat url(../lib/img/deleted_prof_pic.png)'
+            : avatar.style.background = `center/contain no-repeat url(${_userInfo.avatar})`
         badgeContent.push(avatar)
 
         const username = new Element(
@@ -83,6 +86,17 @@ export class UserBadge extends Container {
             null,
             _userInfo.user_login
         ).__init__()
+
+        if (_isDeleted) {
+            const legendContainer = new Container(
+                [username],
+                ['container-flex-column', 'badge-legend-container']
+            ).__init__()
+            legendContainer.style.justifyContent = 'center'
+            badgeContent.push(legendContainer)
+            super (badgeContent, ['card-round', 'container-flex-row', 'full-width', 'user-badge-admin-deleted'], _attrList)
+            return
+        }
 
         let status = new OnlineStatus(
             _attrList.id,
@@ -100,14 +114,10 @@ export class UserBadge extends Container {
             null,
             'banned'
         ).__init__()
-        const deleteButton = new Button(
-            'primary',
-            'Del',
-            ['delete-user-button', 'fs-s']
-        ).__init__()
+
         const info = []
-        if (_isOnAdminPage) info.push(deleteButton)
-        if (_userInfo.isBanned) info.push(bannedBadge)
+ 
+        if (_userInfo.is_banned) info.push(bannedBadge)
         
         if (info) {
             var infoContainer = new Container(info, ['container-flex-column', 'badge-info-container']).__init__()
@@ -214,18 +224,19 @@ export class Post extends Element {
 
 
 export const loadUserBadges = (_users, _container, _isOnAdminPage=false) => {
-    console.log('LOdaing badges for: ', _users)
+    console.log('Loading badges for: ', _users)
     if (!_users || !_users[0]) {
         console.log('No badges need to be loaded');
         return
-    }
-    console.log('isArray: ', Array.isArray(_users))
+    }   
+    console.log('loadUserBadges isArray: ', Array.isArray(_users))
     getUsersData(_users)
     .then(data => {
         let p = Promise.resolve()
         console.log('data:')
         console.log(data);
         for (let user of data) {
+            console.log('loadUserBadges loading user:', user)
             const userBadge = new UserBadge(user, {id: `${user.id}`}, _isOnAdminPage).__init__()
             p = p.then(() => getOnlineStatus(user.id))
             .then(status => userBadge.childNodes[1].childNodes[1].innerText = status)

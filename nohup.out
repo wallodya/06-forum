@@ -3632,3 +3632,189 @@ Got data for users 1:
     date_created: 2022-09-27T10:36:24.741Z
   }
 ]
+Listening to 62.113.97.215:80
+UUID:  0
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  H3IBjkHyvBVJNZccAAAF
+user 1 is online
+[ { id: '292', user_id: '1', session_id: 'H3IBjkHyvBVJNZccAAAF' } ]
+User H3IBjkHyvBVJNZccAAAF disconnected
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '26', '66', '1', '6' ]
+Sending friend list:  [ '26', '66', '1', '6' ]
+UUID:  12
+User connected, socket id:  SwbOFBnsVQwvrOrqAAAK
+user 12 is online
+[ { id: '293', user_id: '12', session_id: 'SwbOFBnsVQwvrOrqAAAK' } ]
+user 12 is online
+[ { id: '293', user_id: '12', session_id: 'SwbOFBnsVQwvrOrqAAAK' } ]
+user 12 is online
+[ { id: '293', user_id: '12', session_id: 'SwbOFBnsVQwvrOrqAAAK' } ]
+user 12 is online
+[ { id: '293', user_id: '12', session_id: 'SwbOFBnsVQwvrOrqAAAK' } ]
+User SwbOFBnsVQwvrOrqAAAK disconnected
+UUID:  0
+New account created:
+
+          Login: testtest
+
+          Name: test test
+
+          E-mail: test-test@te-st.com
+
+          Password: 1234
+New UUID:  70
+Sending friend list:  []
+UUID:  70
+User connected, socket id:  M9OILX--wSZ0NoCNAAAO
+user 70 is online
+[ { id: '294', user_id: '70', session_id: 'M9OILX--wSZ0NoCNAAAO' } ]
+User M9OILX--wSZ0NoCNAAAO disconnected
+UUID:  70
+User connected, socket id:  m4CMDswgMxj3qTQdAAAQ
+file:///var/www/inst.souta.ru/app.js:161
+              socket.emit(`setOnlineStatusFor${userId}`, res.rows[0].last_online)
+                                                                     ^
+
+TypeError: Cannot read properties of undefined (reading 'last_online')
+    at file:///var/www/inst.souta.ru/app.js:161:70
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.7.0
+Listening to 62.113.97.215:80
+UUID:  0
+UUID:  70
+User connected, socket id:  U1ppPgAJD-zJQVYtAAAD
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '335', user_id: '70', session_id: 'U1ppPgAJD-zJQVYtAAAD' }
+]
+User U1ppPgAJD-zJQVYtAAAD disconnected
+UUID:  70
+User connected, socket id:  RLr975JsneSXeDCdAAAF
+User RLr975JsneSXeDCdAAAF disconnected
+UUID:  70
+User connected, socket id:  UdW9ajuwaUs7FRn_AAAH
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '337', user_id: '70', session_id: 'UdW9ajuwaUs7FRn_AAAH' }
+]
+User UdW9ajuwaUs7FRn_AAAH disconnected
+UUID:  70
+User connected, socket id:  T2XVHmeY01hqjJGkAAAJ
+Sending friend list:  [ '65' ]
+////
+add friend request
+////
+////
+Friend added
+////
+Sending friend list:  [ '69' ]
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '338', user_id: '70', session_id: 'T2XVHmeY01hqjJGkAAAJ' }
+]
+Sending friend list:  [ '69' ]
+////
+add friend request
+////
+////
+Friend added
+////
+Sending friend list:  [ '69', '65' ]
+Sending friend list:  [ '69', '65' ]
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '338', user_id: '70', session_id: 'T2XVHmeY01hqjJGkAAAJ' }
+]
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '338', user_id: '70', session_id: 'T2XVHmeY01hqjJGkAAAJ' }
+]
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '338', user_id: '70', session_id: 'T2XVHmeY01hqjJGkAAAJ' }
+]
+Sending friend list:  [ '69', '70' ]
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '338', user_id: '70', session_id: 'T2XVHmeY01hqjJGkAAAJ' }
+]
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '338', user_id: '70', session_id: 'T2XVHmeY01hqjJGkAAAJ' }
+]
+file:///var/www/inst.souta.ru/app.js:30
+        if (err) throw err
+                 ^
+
+[Error: ENOENT: no such file or directory, open './dist/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: './dist/index.html'
+}
+
+Node.js v18.7.0
+Listening to 62.113.97.215:80
+UUID:  0
+UUID:  70
+User connected, socket id:  TZcJEWEfReXyHTtRAAAD
+user 70 is online
+[
+  { id: '295', user_id: '70', session_id: 'm4CMDswgMxj3qTQdAAAQ' },
+  { id: '296', user_id: '70', session_id: 'sO5tAxEDOvlV57GKAAAB' },
+  { id: '298', user_id: '70', session_id: 'd5AgKZRuQWz8LHBFAAAD' },
+  { id: '338', user_id: '70', session_id: 'T2XVHmeY01hqjJGkAAAJ' },
+  { id: '342', user_id: '70', session_id: 'TZcJEWEfReXyHTtRAAAD' }
+]
+User TZcJEWEfReXyHTtRAAAD disconnected
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  VqXPJYyai6iTFK2DAAAH
+user 1 is online
+[
+  { id: '305', user_id: '1', session_id: 'qKnrNHgkBOFS-vi8AAAN' },
+  { id: '306', user_id: '1', session_id: 'R7EcNwFkBBzPUN8qAAAB' },
+  { id: '312', user_id: '1', session_id: 'zz8oPW8bJnOMVk6bAAAL' },
+  { id: '314', user_id: '1', session_id: 'Ec55y747INKh1xsWAAAD' },
+  { id: '319', user_id: '1', session_id: 'dMWKr5a9iwZIYC4lAAAO' },
+  { id: '320', user_id: '1', session_id: '4FnnzN_ocShPYe06AAAB' },
+  { id: '330', user_id: '1', session_id: 'V11DF7XbWa9NlkoRAAAU' },
+  { id: '343', user_id: '1', session_id: 'VqXPJYyai6iTFK2DAAAH' }
+]
+User VqXPJYyai6iTFK2DAAAH disconnected
+UUID:  0
