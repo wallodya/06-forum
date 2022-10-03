@@ -8,9 +8,11 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "node app.js",
+    "devStart": "nodemon app.js",
     "start": "nohup node app.js & > output.log"
   },
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "vite": "^3.1.0"
   },
   "dependencies": {

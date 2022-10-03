@@ -33,7 +33,50 @@ app.get('*', (req, res) => {
 })
 
 io.on('connection', (socket) => {
-    console.log('User connected, socket id: ', socket.id)
+
+    const UUID = socket.request.headers.uuid ?? 0
+    console.log('UUID: ', UUID)
+
+    if (UUID > 0) {
+      pool.query({
+        text: `INSERT INTO user_sessions(user_id, session_id)
+              VALUES($1, $2)`,
+        values: [UUID, socket.id]
+      })
+      .then(() => {
+        console.log('User connected, socket id: ', socket.id)
+      })
+      .catch(err => {
+        console.log('Error while starting session: ', err)
+      })
+  
+  
+      socket.on('disconnecting', reason => {
+  
+        pool.query({
+          text: `DELETE FROM user_sessions WHERE session_id = $1`,
+          values: [socket.id]
+        })
+        .then(() => {
+          console.log(`User ${socket.id} disconnected`)
+          pool.query({
+            text: 'SELECT * FROM user_sessions WHERE user_id = $1',
+            values: [UUID]
+          })
+          .then(res => {
+            if (!res.rowCount) {
+              pool.query({
+                text: 'UPDATE users SET last_online = $1 WHERE id = $2',
+                values: [Date.now(), UUID] 
+              })
+            }
+          })
+        })
+        .catch(err => {
+          console.log('Error while ending session: ', err)
+        })
+      })
+    }
 
     socket.on('logoutReq', (userId) => {
         console.log(`User ${userId} logged out`)
@@ -89,23 +132,38 @@ io.on('connection', (socket) => {
           .catch(err => console.log(err))
         }
       )
-      .catch(
-        err => err.constraint === 'unique_login'
+      .catch(err => {
+        err.constraint === 'unique_login'
          ? socket.emit('createAccountFailed', 'login_not_unique')
          : socket.emit('createAccountFailed', err)
-      )
+      })
       // socket.emit('accountCreated', newUserId)
       }
     )
 
     socket.on('getOnlineStatus', (userId) => {
-        // console.log('got status request from ', userId)
 
-        // For testing: generating and sending random interval between 0 minutes and 7 days
-        const msInHour = 1000 * 60 * 60
-        const lastSeenTime = Date.now() - Math.floor(Math.random() * msInHour * 24 * 7) + 1
+        pool.query({
+          text: 'SELECT * FROM user_sessions WHERE user_id = $1',
+          values: [+userId]
+        })
+        .then(res => {
+          if (res.rowCount) {
+            console.log(`user ${userId} is online`)
+            console.log(res.rows)
+            socket.emit(`setOnlineStatusFor${userId}`, 'online')
+          } else {
+            pool.query({
+              text: 'SELECT last_online FROM users WHERE id = $1',
+              values: [userId]
+            })
+            .then(res => {
+              socket.emit(`setOnlineStatusFor${userId}`, res.rows[0].last_online)
+            })
+          }
+             
+        })
 
-        socket.emit(`setOnlineStatusFor${userId}`, lastSeenTime)
     })
 
     socket.on('getUsersData', (_userIds) => {
@@ -114,13 +172,13 @@ io.on('connection', (socket) => {
             case _userIds === 'all' : {
                 console.log('Request for every users data')
                 pool.query('SELECT * FROM users').then(data => {
-                  console.log('All users: ', data.rows)
+                  // console.log('All users: ', data.rows)
                   socket.emit(`sendUsersDataFor${_userIds}`, data.rows)
                 })
                 break
             }
             case !Array.isArray(_userIds) : {
-                console.log(`Request data for one user: ${_userIds}`)
+                // console.log(`Request data for one user: ${_userIds}`)
                 pool.query({
                   text: 'SELECT * FROM users WHERE id = $1',
                   values: [_userIds]
@@ -131,22 +189,56 @@ io.on('connection', (socket) => {
                 break
             }
             case Array.isArray(_userIds) : {
-                console.log(`Request for data of following users:`)
-                console.log(_userIds)
+                // console.log(`Request for data of following users:`)
+                // console.log(_userIds)
                 const data = {}
                 pool.query({
                   text: "SELECT * FROM users WHERE id = ANY ($1::int[])",
                   values: [ _userIds ]
-                  // WHERE IN ANY (ARRAY[1, 6]) works, but we need to find a way to pass a parameter
-                  // then we just need to make a final object and send it
                 })
                 .then(data => {
-                  console.log(`Got data for users ${_userIds}: `)
-                  console.log(data.rows)
+                  // console.log(`Got data for users ${_userIds}: `)
+                  // console.log(data.rows)
                   socket.emit(`sendUsersDataFor${_userIds}`, data.rows)
                 })
             }
         }
+    })
+
+    socket.on('addFriend', (_user1, _user2) => {
+      console.log('////\nadd friend request\n////')
+      pool.query({
+        text: 'INSERT INTO friends(first_friend, second_friend) VALUES($1, $2)',
+        values: [_user1, _user2]
+      })
+      .then(() => {
+        console.log('////\nFriend added\n////')
+        socket.emit('addFriendRes')
+      })
+      .catch((err) => {
+        console.log('Error while adding friend', err)
+        socket.emit('addFriendError')
+      })
+    })
+    
+    socket.on('removeFriend', (_user1, _user2) => {
+      console.log('remove friend request')
+      pool.query({
+        text: `DELETE FROM friends 
+              WHERE
+              (first_friend = $1 AND second_friend = $2)
+              OR
+              (second_friend = $1 AND first_friend = $2)`,
+        values: [_user1, _user2]
+      })
+      .then(() => {
+        console.log('Friend removed')
+        socket.emit('removeFriendRes')
+      })
+      .catch((err) => {
+        console.log('Error while removeinng friend: ', err)
+        socket.emit('removeFriendError')
+      })
     })
 
     socket.on('friendListRequest', _id => {
@@ -163,6 +255,56 @@ io.on('connection', (socket) => {
                     New login: ${newData.newLogin}
                     New e-mail: ${newData.newEmail}`)
         socket.emit(`profileDataChangedForUser${newData.userId}`, 'Your data changned!!!')
+    })
+
+    socket.on('ban', _userId => {
+      console.log('Ban user: ', _userId)
+      pool.query({
+        text: `UPDATE users
+              SET is_banned = NOT is_banned
+              WHERE id = $1`,
+        values: [_userId]
+      })
+      .then(() => {
+        socket.emit('banSuccess')
+        console.log(`user ${_userId} banned/unbanned `)
+      })
+      .catch(err => {
+        console.log('Error while banning user', err)
+        socket.emit('banFail')
+      })
+    })
+
+    socket.on('deleteUser', _userId => {
+      console.log('Deleting user: ', _userId)
+      pool.query({
+        text: `INSERT INTO deleted_users(user_login, user_id)
+              VALUES (
+                (SELECT user_login FROM users WHERE id = $1),
+                $1
+              )`,
+        values: [_userId]
+      })
+      .then(() => {
+        pool.query({
+          text: 'DELETE FROM users WHERE id = $1',
+          values: [_userId]
+        })
+      })
+      .then(() => {
+        socket.emit('deleteSuccess')
+      })
+      .catch(err => {
+        console.log('Error while deleting user: ', err)
+        socket.emit('deleteFail')
+      })
+    })
+
+    socket.on('getDeletedUsers', () => {
+      pool.query('SELECT * FROM deleted_users')
+      .then(res => {
+        socket.emit('getDeletedUsersRes', res.rows.map(row => row.user_login))
+      })
     })
 
 })
@@ -186,7 +328,6 @@ const getFriendList = _UUID => {
     })
     .then( data => {
       const friends = []
-      console.log('type of friends: ', typeof(friends))
       data.rows.forEach(friend => friends.push(friend.first_friend != _UUID && friend.first_friend || friend.second_friend))
       friends.forEach(friend => friend = parseInt(friend))
       resolve(friends)

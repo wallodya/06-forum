@@ -255,3 +255,3380 @@ Request data for one user: 000001
 Request data for one user: 000001
 Request data for one user: 000001
 Request data for one user: 000001
+Listening to 62.113.97.215:80
+User connected, socket id:  avr_UQ9uxxrt0u2BAAAB
+User connected, socket id:  zN9VxArdfi34GDoUAAAD
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Res.rows:  true
+User logged in
+Request data for one user: 1
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Res.rows:  true
+User logged in
+Request data for one user: 12
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Request for data of following users:
+[ '1' ]
+Request for data of following users:
+[ '1' ]
+type of friends:  object
+Sending friend list:  [ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request data for one user: 1
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 1
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Res.rows:  true
+User logged in
+Request data for one user: 1
+Request data for one user: 1
+Request data for one user: 1
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+User connected, socket id:  dv7h5lPGHk8WgZYJAAAF
+User connected, socket id:  9BZVu-qBHqFBduQrAAAH
+User connected, socket id:  SWVIkR43PI8eWE7FAAAJ
+Res.rows:  true
+User logged in
+Request data for one user: 1
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+User connected, socket id:  qr6xFSwfyCpbj2WIAAAL
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+User connected, socket id:  Q0w0L7GyDh0AbvtlAAAN
+Res.rows:  true
+User logged in
+Request data for one user: 1
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request for every users data
+All users:  [
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  },
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  },
+  {
+    id: '14',
+    user_login: 'testab',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:43.040Z
+  },
+  {
+    id: '15',
+    user_login: 'testabc',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:01:47.832Z
+  },
+  {
+    id: '16',
+    user_login: 'testabcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:09.631Z
+  },
+  {
+    id: '17',
+    user_login: 'abcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:49.089Z
+  },
+  {
+    id: '19',
+    user_login: 'abcde',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:57.506Z
+  },
+  {
+    id: '20',
+    user_login: 'newacc',
+    user_password: '1234',
+    user_name: 'Some name',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:16:02.929Z
+  },
+  {
+    id: '22',
+    user_login: 'aaaaaa',
+    user_password: '1234',
+    user_name: 'aaaaaa',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:22:05.136Z
+  },
+  {
+    id: '23',
+    user_login: 'vvvvvv',
+    user_password: '1111',
+    user_name: 'vvvv vvvv',
+    avatar: null,
+    email: 'adcaev@ace',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:02:00.665Z
+  },
+  {
+    id: '24',
+    user_login: 'user111',
+    user_password: '12345',
+    user_name: 'asdfasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:06:06.749Z
+  },
+  {
+    id: '25',
+    user_login: 'newaccount',
+    user_password: '1234',
+    user_name: 'john smith',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:45:28.411Z
+  },
+  {
+    id: '26',
+    user_login: 'newtest',
+    user_password: '1234',
+    user_name: 'abc bca',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:56:31.950Z
+  },
+  {
+    id: '27',
+    user_login: 'aaaaaaaaa',
+    user_password: '1234',
+    user_name: 'aa aaa',
+    avatar: null,
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:00:43.463Z
+  },
+  {
+    id: '28',
+    user_login: 'bbbb',
+    user_password: '1234',
+    user_name: 'bb bb',
+    avatar: null,
+    email: 'bbb@bbb',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:05:37.994Z
+  },
+  {
+    id: '29',
+    user_login: 'cccc',
+    user_password: '1234',
+    user_name: 'cc cc',
+    avatar: null,
+    email: 'ccc@ccc',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:06:38.026Z
+  },
+  {
+    id: '30',
+    user_login: 'dddd',
+    user_password: '1234',
+    user_name: 'ddd ddd',
+    avatar: null,
+    email: 'dddd@DDD',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:15:22.357Z
+  },
+  {
+    id: '31',
+    user_login: 'eeee',
+    user_password: '1234',
+    user_name: 'ee ee',
+    avatar: null,
+    email: 'eee@eee.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:18:58.902Z
+  },
+  {
+    id: '32',
+    user_login: 'ffff',
+    user_password: '1234',
+    user_name: 'ff ff',
+    avatar: null,
+    email: 'fff@fff.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T13:21:38.954Z
+  }
+]
+Request data for one user: 14
+type of friends:  object
+Sending friend list:  []
+Request for every users data
+All users:  [
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  },
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  },
+  {
+    id: '14',
+    user_login: 'testab',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:43.040Z
+  },
+  {
+    id: '15',
+    user_login: 'testabc',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:01:47.832Z
+  },
+  {
+    id: '16',
+    user_login: 'testabcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:09.631Z
+  },
+  {
+    id: '17',
+    user_login: 'abcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:49.089Z
+  },
+  {
+    id: '19',
+    user_login: 'abcde',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:57.506Z
+  },
+  {
+    id: '20',
+    user_login: 'newacc',
+    user_password: '1234',
+    user_name: 'Some name',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:16:02.929Z
+  },
+  {
+    id: '22',
+    user_login: 'aaaaaa',
+    user_password: '1234',
+    user_name: 'aaaaaa',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:22:05.136Z
+  },
+  {
+    id: '23',
+    user_login: 'vvvvvv',
+    user_password: '1111',
+    user_name: 'vvvv vvvv',
+    avatar: null,
+    email: 'adcaev@ace',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:02:00.665Z
+  },
+  {
+    id: '24',
+    user_login: 'user111',
+    user_password: '12345',
+    user_name: 'asdfasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:06:06.749Z
+  },
+  {
+    id: '25',
+    user_login: 'newaccount',
+    user_password: '1234',
+    user_name: 'john smith',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:45:28.411Z
+  },
+  {
+    id: '26',
+    user_login: 'newtest',
+    user_password: '1234',
+    user_name: 'abc bca',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:56:31.950Z
+  },
+  {
+    id: '27',
+    user_login: 'aaaaaaaaa',
+    user_password: '1234',
+    user_name: 'aa aaa',
+    avatar: null,
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:00:43.463Z
+  },
+  {
+    id: '28',
+    user_login: 'bbbb',
+    user_password: '1234',
+    user_name: 'bb bb',
+    avatar: null,
+    email: 'bbb@bbb',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:05:37.994Z
+  },
+  {
+    id: '29',
+    user_login: 'cccc',
+    user_password: '1234',
+    user_name: 'cc cc',
+    avatar: null,
+    email: 'ccc@ccc',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:06:38.026Z
+  },
+  {
+    id: '30',
+    user_login: 'dddd',
+    user_password: '1234',
+    user_name: 'ddd ddd',
+    avatar: null,
+    email: 'dddd@DDD',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:15:22.357Z
+  },
+  {
+    id: '31',
+    user_login: 'eeee',
+    user_password: '1234',
+    user_name: 'ee ee',
+    avatar: null,
+    email: 'eee@eee.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:18:58.902Z
+  },
+  {
+    id: '32',
+    user_login: 'ffff',
+    user_password: '1234',
+    user_name: 'ff ff',
+    avatar: null,
+    email: 'fff@fff.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T13:21:38.954Z
+  }
+]
+Request data for one user: 20
+type of friends:  object
+Sending friend list:  []
+Request for every users data
+All users:  [
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  },
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  },
+  {
+    id: '14',
+    user_login: 'testab',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:43.040Z
+  },
+  {
+    id: '15',
+    user_login: 'testabc',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:01:47.832Z
+  },
+  {
+    id: '16',
+    user_login: 'testabcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:09.631Z
+  },
+  {
+    id: '17',
+    user_login: 'abcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:49.089Z
+  },
+  {
+    id: '19',
+    user_login: 'abcde',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:57.506Z
+  },
+  {
+    id: '20',
+    user_login: 'newacc',
+    user_password: '1234',
+    user_name: 'Some name',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:16:02.929Z
+  },
+  {
+    id: '22',
+    user_login: 'aaaaaa',
+    user_password: '1234',
+    user_name: 'aaaaaa',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:22:05.136Z
+  },
+  {
+    id: '23',
+    user_login: 'vvvvvv',
+    user_password: '1111',
+    user_name: 'vvvv vvvv',
+    avatar: null,
+    email: 'adcaev@ace',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:02:00.665Z
+  },
+  {
+    id: '24',
+    user_login: 'user111',
+    user_password: '12345',
+    user_name: 'asdfasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:06:06.749Z
+  },
+  {
+    id: '25',
+    user_login: 'newaccount',
+    user_password: '1234',
+    user_name: 'john smith',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:45:28.411Z
+  },
+  {
+    id: '26',
+    user_login: 'newtest',
+    user_password: '1234',
+    user_name: 'abc bca',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:56:31.950Z
+  },
+  {
+    id: '27',
+    user_login: 'aaaaaaaaa',
+    user_password: '1234',
+    user_name: 'aa aaa',
+    avatar: null,
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:00:43.463Z
+  },
+  {
+    id: '28',
+    user_login: 'bbbb',
+    user_password: '1234',
+    user_name: 'bb bb',
+    avatar: null,
+    email: 'bbb@bbb',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:05:37.994Z
+  },
+  {
+    id: '29',
+    user_login: 'cccc',
+    user_password: '1234',
+    user_name: 'cc cc',
+    avatar: null,
+    email: 'ccc@ccc',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:06:38.026Z
+  },
+  {
+    id: '30',
+    user_login: 'dddd',
+    user_password: '1234',
+    user_name: 'ddd ddd',
+    avatar: null,
+    email: 'dddd@DDD',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:15:22.357Z
+  },
+  {
+    id: '31',
+    user_login: 'eeee',
+    user_password: '1234',
+    user_name: 'ee ee',
+    avatar: null,
+    email: 'eee@eee.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:18:58.902Z
+  },
+  {
+    id: '32',
+    user_login: 'ffff',
+    user_password: '1234',
+    user_name: 'ff ff',
+    avatar: null,
+    email: 'fff@fff.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T13:21:38.954Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+User connected, socket id:  8KFiEkKcJPd2EJOsAAAP
+User connected, socket id:  TsM3uQcanelVyH5mAAAR
+User connected, socket id:  D7vNS4YJZrCrCz-jAAAT
+Request data for one user: 1
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+User connected, socket id:  MScNNwcbmAlAZ0QuAAAe
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+User connected, socket id:  8wZGUUUPH-cSmKalAAAf
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New account created:
+
+          Login: vn10
+
+          Name: peter dum
+
+          E-mail: 220-230@mail.ru
+
+          Password: `123
+New UUID:  33
+User connected, socket id:  QCs7FdAMRSkD5ktmAAAh
+New account created:
+
+          Login: fffff
+
+          Name: ggggg
+
+          E-mail: aa@aa
+
+          Password: 1234
+New UUID:  55
+Request data for one user: 55
+type of friends:  object
+Sending friend list:  []
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+Request data for one user: 33
+User connected, socket id:  JdCpCT_o6dBiL_5BAAAj
+New account created:
+
+          Login: vn11
+
+          Name: asdasdasd
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New UUID:  56
+Request data for one user: 56
+type of friends:  object
+Sending friend list:  []
+New account created:
+
+          Login: aaaa34
+
+          Name: d ddd
+
+          E-mail: ff-dd@dd
+
+          Password: 1234
+New account created:
+
+          Login: aaaa34
+
+          Name: d ddd
+
+          E-mail: ff-dd@dd
+
+          Password: 1234
+New account created:
+
+          Login: aaaa34
+
+          Name: d ddd
+
+          E-mail: ff-dd@dd
+
+          Password: 1234
+New account created:
+
+          Login: aaaa34
+
+          Name: d ddd
+
+          E-mail: ffdd@dd
+
+          Password: 1234
+New account created:
+
+          Login: aaaa34
+
+          Name: d ddd
+
+          E-mail: ffdd@dd
+
+          Password: 1234
+New UUID:  57
+Request data for one user: 57
+Request data for one user: 57
+Request data for one user: 57
+Request data for one user: 57
+Request data for one user: 57
+Request data for one user: 57
+Request data for one user: 56
+type of friends:  object
+Sending friend list:  []
+Res.rows:  true
+User logged in
+Request data for one user: 56
+type of friends:  object
+Sending friend list:  []
+Request for every users data
+All users:  [
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  },
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  },
+  {
+    id: '14',
+    user_login: 'testab',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:43.040Z
+  },
+  {
+    id: '15',
+    user_login: 'testabc',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:01:47.832Z
+  },
+  {
+    id: '16',
+    user_login: 'testabcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:09.631Z
+  },
+  {
+    id: '17',
+    user_login: 'abcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:49.089Z
+  },
+  {
+    id: '19',
+    user_login: 'abcde',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:57.506Z
+  },
+  {
+    id: '20',
+    user_login: 'newacc',
+    user_password: '1234',
+    user_name: 'Some name',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:16:02.929Z
+  },
+  {
+    id: '22',
+    user_login: 'aaaaaa',
+    user_password: '1234',
+    user_name: 'aaaaaa',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:22:05.136Z
+  },
+  {
+    id: '23',
+    user_login: 'vvvvvv',
+    user_password: '1111',
+    user_name: 'vvvv vvvv',
+    avatar: null,
+    email: 'adcaev@ace',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:02:00.665Z
+  },
+  {
+    id: '24',
+    user_login: 'user111',
+    user_password: '12345',
+    user_name: 'asdfasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:06:06.749Z
+  },
+  {
+    id: '25',
+    user_login: 'newaccount',
+    user_password: '1234',
+    user_name: 'john smith',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:45:28.411Z
+  },
+  {
+    id: '26',
+    user_login: 'newtest',
+    user_password: '1234',
+    user_name: 'abc bca',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:56:31.950Z
+  },
+  {
+    id: '27',
+    user_login: 'aaaaaaaaa',
+    user_password: '1234',
+    user_name: 'aa aaa',
+    avatar: null,
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:00:43.463Z
+  },
+  {
+    id: '28',
+    user_login: 'bbbb',
+    user_password: '1234',
+    user_name: 'bb bb',
+    avatar: null,
+    email: 'bbb@bbb',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:05:37.994Z
+  },
+  {
+    id: '29',
+    user_login: 'cccc',
+    user_password: '1234',
+    user_name: 'cc cc',
+    avatar: null,
+    email: 'ccc@ccc',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:06:38.026Z
+  },
+  {
+    id: '30',
+    user_login: 'dddd',
+    user_password: '1234',
+    user_name: 'ddd ddd',
+    avatar: null,
+    email: 'dddd@DDD',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:15:22.357Z
+  },
+  {
+    id: '31',
+    user_login: 'eeee',
+    user_password: '1234',
+    user_name: 'ee ee',
+    avatar: null,
+    email: 'eee@eee.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:18:58.902Z
+  },
+  {
+    id: '32',
+    user_login: 'ffff',
+    user_password: '1234',
+    user_name: 'ff ff',
+    avatar: null,
+    email: 'fff@fff.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T13:21:38.954Z
+  },
+  {
+    id: '33',
+    user_login: 'vn10',
+    user_password: '1234',
+    user_name: 'peter dum',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:38:45.920Z
+  },
+  {
+    id: '55',
+    user_login: 'fffff',
+    user_password: '1234',
+    user_name: 'ggggg',
+    avatar: null,
+    email: 'aa@aa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:39:15.969Z
+  },
+  {
+    id: '56',
+    user_login: 'vn11',
+    user_password: '1234',
+    user_name: 'asdasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:40:07.534Z
+  },
+  {
+    id: '57',
+    user_login: 'aaaa34',
+    user_password: '1234',
+    user_name: 'd ddd',
+    avatar: null,
+    email: 'ff-dd@dd',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:40:53.864Z
+  }
+]
+Request data for one user: 56
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Request for every users data
+User connected, socket id:  0K_1GEKR8nl3uP9aAAAs
+Res.rows:  true
+User logged in
+All users:  [
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  },
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  },
+  {
+    id: '14',
+    user_login: 'testab',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:43.040Z
+  },
+  {
+    id: '15',
+    user_login: 'testabc',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:01:47.832Z
+  },
+  {
+    id: '16',
+    user_login: 'testabcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:09.631Z
+  },
+  {
+    id: '17',
+    user_login: 'abcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:49.089Z
+  },
+  {
+    id: '19',
+    user_login: 'abcde',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:57.506Z
+  },
+  {
+    id: '20',
+    user_login: 'newacc',
+    user_password: '1234',
+    user_name: 'Some name',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:16:02.929Z
+  },
+  {
+    id: '22',
+    user_login: 'aaaaaa',
+    user_password: '1234',
+    user_name: 'aaaaaa',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:22:05.136Z
+  },
+  {
+    id: '23',
+    user_login: 'vvvvvv',
+    user_password: '1111',
+    user_name: 'vvvv vvvv',
+    avatar: null,
+    email: 'adcaev@ace',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:02:00.665Z
+  },
+  {
+    id: '24',
+    user_login: 'user111',
+    user_password: '12345',
+    user_name: 'asdfasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:06:06.749Z
+  },
+  {
+    id: '25',
+    user_login: 'newaccount',
+    user_password: '1234',
+    user_name: 'john smith',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:45:28.411Z
+  },
+  {
+    id: '26',
+    user_login: 'newtest',
+    user_password: '1234',
+    user_name: 'abc bca',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:56:31.950Z
+  },
+  {
+    id: '27',
+    user_login: 'aaaaaaaaa',
+    user_password: '1234',
+    user_name: 'aa aaa',
+    avatar: null,
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:00:43.463Z
+  },
+  {
+    id: '28',
+    user_login: 'bbbb',
+    user_password: '1234',
+    user_name: 'bb bb',
+    avatar: null,
+    email: 'bbb@bbb',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:05:37.994Z
+  },
+  {
+    id: '29',
+    user_login: 'cccc',
+    user_password: '1234',
+    user_name: 'cc cc',
+    avatar: null,
+    email: 'ccc@ccc',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:06:38.026Z
+  },
+  {
+    id: '30',
+    user_login: 'dddd',
+    user_password: '1234',
+    user_name: 'ddd ddd',
+    avatar: null,
+    email: 'dddd@DDD',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:15:22.357Z
+  },
+  {
+    id: '31',
+    user_login: 'eeee',
+    user_password: '1234',
+    user_name: 'ee ee',
+    avatar: null,
+    email: 'eee@eee.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:18:58.902Z
+  },
+  {
+    id: '32',
+    user_login: 'ffff',
+    user_password: '1234',
+    user_name: 'ff ff',
+    avatar: null,
+    email: 'fff@fff.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T13:21:38.954Z
+  },
+  {
+    id: '33',
+    user_login: 'vn10',
+    user_password: '1234',
+    user_name: 'peter dum',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:38:45.920Z
+  },
+  {
+    id: '55',
+    user_login: 'fffff',
+    user_password: '1234',
+    user_name: 'ggggg',
+    avatar: null,
+    email: 'aa@aa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:39:15.969Z
+  },
+  {
+    id: '56',
+    user_login: 'vn11',
+    user_password: '1234',
+    user_name: 'asdasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:40:07.534Z
+  },
+  {
+    id: '57',
+    user_login: 'aaaa34',
+    user_password: '1234',
+    user_name: 'd ddd',
+    avatar: null,
+    email: 'ff-dd@dd',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:40:53.864Z
+  }
+]
+Res.rows:  true
+User logged in
+User connected, socket id:  s42IEhSs2fx4gbK-AAAu
+User connected, socket id:  ASLqn4ezBQLNSywqAAAw
+Request for every users data
+All users:  [
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  },
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  },
+  {
+    id: '14',
+    user_login: 'testab',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:43.040Z
+  },
+  {
+    id: '15',
+    user_login: 'testabc',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:01:47.832Z
+  },
+  {
+    id: '16',
+    user_login: 'testabcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:09.631Z
+  },
+  {
+    id: '17',
+    user_login: 'abcd',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:49.089Z
+  },
+  {
+    id: '19',
+    user_login: 'abcde',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:02:57.506Z
+  },
+  {
+    id: '20',
+    user_login: 'newacc',
+    user_password: '1234',
+    user_name: 'Some name',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:16:02.929Z
+  },
+  {
+    id: '22',
+    user_login: 'aaaaaa',
+    user_password: '1234',
+    user_name: 'aaaaaa',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T13:22:05.136Z
+  },
+  {
+    id: '23',
+    user_login: 'vvvvvv',
+    user_password: '1111',
+    user_name: 'vvvv vvvv',
+    avatar: null,
+    email: 'adcaev@ace',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:02:00.665Z
+  },
+  {
+    id: '24',
+    user_login: 'user111',
+    user_password: '12345',
+    user_name: 'asdfasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T18:06:06.749Z
+  },
+  {
+    id: '25',
+    user_login: 'newaccount',
+    user_password: '1234',
+    user_name: 'john smith',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:45:28.411Z
+  },
+  {
+    id: '26',
+    user_login: 'newtest',
+    user_password: '1234',
+    user_name: 'abc bca',
+    avatar: null,
+    email: 'email@email.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T11:56:31.950Z
+  },
+  {
+    id: '27',
+    user_login: 'aaaaaaaaa',
+    user_password: '1234',
+    user_name: 'aa aaa',
+    avatar: null,
+    email: 'aaa@aaa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:00:43.463Z
+  },
+  {
+    id: '28',
+    user_login: 'bbbb',
+    user_password: '1234',
+    user_name: 'bb bb',
+    avatar: null,
+    email: 'bbb@bbb',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:05:37.994Z
+  },
+  {
+    id: '29',
+    user_login: 'cccc',
+    user_password: '1234',
+    user_name: 'cc cc',
+    avatar: null,
+    email: 'ccc@ccc',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:06:38.026Z
+  },
+  {
+    id: '30',
+    user_login: 'dddd',
+    user_password: '1234',
+    user_name: 'ddd ddd',
+    avatar: null,
+    email: 'dddd@DDD',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:15:22.357Z
+  },
+  {
+    id: '31',
+    user_login: 'eeee',
+    user_password: '1234',
+    user_name: 'ee ee',
+    avatar: null,
+    email: 'eee@eee.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T12:18:58.902Z
+  },
+  {
+    id: '32',
+    user_login: 'ffff',
+    user_password: '1234',
+    user_name: 'ff ff',
+    avatar: null,
+    email: 'fff@fff.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T13:21:38.954Z
+  },
+  {
+    id: '33',
+    user_login: 'vn10',
+    user_password: '1234',
+    user_name: 'peter dum',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:38:45.920Z
+  },
+  {
+    id: '55',
+    user_login: 'fffff',
+    user_password: '1234',
+    user_name: 'ggggg',
+    avatar: null,
+    email: 'aa@aa',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:39:15.969Z
+  },
+  {
+    id: '56',
+    user_login: 'vn11',
+    user_password: '1234',
+    user_name: 'asdasdasd',
+    avatar: null,
+    email: '220-230@mail.ru',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:40:07.534Z
+  },
+  {
+    id: '57',
+    user_login: 'aaaa34',
+    user_password: '1234',
+    user_name: 'd ddd',
+    avatar: null,
+    email: 'ff-dd@dd',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-30T17:40:53.864Z
+  }
+]
+User connected, socket id:  Q_01n4aPnKCHU-GcAAAy
+User connected, socket id:  uMea6WgipTbk1eoZAAA0
+User connected, socket id:  ISZMwdpbAGh4ihS0AAA2
+User connected, socket id:  cRv3KZpsRCevxRXKAAA4
+User connected, socket id:  NWBk8MzcjzG029XRAAA6
+User connected, socket id:  UnVNru2EoxBCDwovAAA8
+User connected, socket id:  X524-T5mXqvO2wXFAAA-
+User connected, socket id:  B18bbSAdP-o1e_QGAABA
+User connected, socket id:  4GWFYvSqLIRp4IqIAABC
+User connected, socket id:  GBQNHFMJOazJFLZoAABE
+User connected, socket id:  _15RHkP6Qw0FDTkzAABG
+User connected, socket id:  PdLtztiLii7E_1w3AABI
+User connected, socket id:  zbsoGuqw2qVKRhtHAABK
+User connected, socket id:  dmT9SUOdSBsUSy1jAABM
+User connected, socket id:  DbjbtRRWHbw6DaszAABO
+User connected, socket id:  4zPlwuz6l6dU6CGSAABQ
+User connected, socket id:  SHyth3RHYE4x6eFQAABS
+User connected, socket id:  qdrQUvJ14pIBIuMhAABU
+User connected, socket id:  bUPFfuLeage9SMUUAABW
+User connected, socket id:  cObgM9xvHYC8sh-mAABY
+User connected, socket id:  sI2s_Jm2QJa21DEvAABa
+User connected, socket id:  1_ki63Yw6ZTyEn4UAABc
+User connected, socket id:  1ON-R6BIWOnCyAmqAABe
+User connected, socket id:  JFDqDqJpIVeh2-gNAABg
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  WemCdE_SNtBlF9ZrAABi
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  TbgWlwbqCKWZvuesAABk
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  BWjenev6LcTSaJc3AABm
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  -fQByFX6KfCFZI93AABo
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Res.rows:  true
+User logged in
+Request data for one user: 1
+type of friends:  object
+Sending friend list:  [ '6', '12' ]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  az0XJd2AaWvTXlR2AABq
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  BqjMHjSy7i1P11WJAABs
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  FLKyABzuZ8J2hLGFAABu
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  4DBRSphxMgSSIDDCAABw
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  faLx7hFsSeWcSo-BAABy
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  mcZeXgiwj5QYdfuKAAB0
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  SbnTFCTYQzr4dg2GAAB2
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  qgaZy1sq2CsrrHV7AAB4
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  CtA39GkSA9WvQvVBAAB6
+User connected, socket id:  vLbMHR8kM7eUwmgSAAB8
+User connected, socket id:  AUzFmbUp8U2pIE-kAAB-
+User connected, socket id:  0iGiAYCvYHxtXPJfAACA
+User connected, socket id:  1A8npxpbsgGgy2ycAACC
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  Sy62nys_8vxhQyA2AACE
+User connected, socket id:  49C5M7BAEb2Ig52sAACG
+User connected, socket id:  iBQ_0p85qYakMg0_AACI
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 6
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+User connected, socket id:  W1EnzTVgCJ4fOJIMAACK
+Request data for one user: 30
+type of friends:  object
+Sending friend list:  []
+User connected, socket id:  -_iRMDhhxR651QjYAACM
+Request for data of following users:
+[ '6', '12' ]
+Got data for users 6,12: 
+[
+  {
+    id: '6',
+    user_login: 'test',
+    user_password: '1111',
+    user_name: 'John Smith',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'bvsahv@codc.com',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:09:35.786Z
+  },
+  {
+    id: '12',
+    user_login: 'testa',
+    user_password: 'ffff',
+    user_name: 'adf afs',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'asff@af',
+    is_banned: false,
+    is_admin: false,
+    is_online: false,
+    date_created: 2022-09-28T12:58:30.425Z
+  }
+]
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  alx2F_5KxRBu_L5oAACO
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  DhKvLry4DI7rQNGCAACQ
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  7o0-hIY68D6ryzo7AACS
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]
+User connected, socket id:  pheC9auv7p5rCS1hAACU
+Request data for one user: 12
+type of friends:  object
+Sending friend list:  [ '1' ]
+Request for data of following users:
+[ '1' ]
+Got data for users 1: 
+[
+  {
+    id: '1',
+    user_login: 'wallodya',
+    user_password: '1234',
+    user_name: 'Vladimir',
+    avatar: '../lib/img/default_prof_pic.png',
+    email: 'qwerty@test.com',
+    is_banned: false,
+    is_admin: true,
+    is_online: true,
+    date_created: 2022-09-27T10:36:24.741Z
+  }
+]

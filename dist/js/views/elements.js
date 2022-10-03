@@ -214,6 +214,11 @@ export class Post extends Element {
 
 
 export const loadUserBadges = (_users, _container, _isOnAdminPage=false) => {
+    console.log('LOdaing badges for: ', _users)
+    if (!_users || !_users[0]) {
+        console.log('No badges need to be loaded');
+        return
+    }
     console.log('isArray: ', Array.isArray(_users))
     getUsersData(_users)
     .then(data => {
@@ -226,7 +231,7 @@ export const loadUserBadges = (_users, _container, _isOnAdminPage=false) => {
             .then(status => userBadge.childNodes[1].childNodes[1].innerText = status)
             .catch(status => userBadge.childNodes[1].childNodes[1].innerText = status)
             userBadge.onclick = () => {
-                renderPath(false, '/user' + userId)
+                renderPath(false, '/user' + user.id)
             }
             _container.append(userBadge)
         }
