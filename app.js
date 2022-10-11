@@ -340,6 +340,51 @@ io.on('connection', (socket) => {
       })
       // .catch(err => console.log(`Error in getRandomUsers: ${err}`))
     })
+
+    socket.on('getPostsForUser', _id => {
+      console.log('Request for posts. User: ', _id)
+      pool.query({
+        text: `SELECT author_id, user_login, is_admin, post_text, post_image, time_posted
+              FROM post
+              INNER JOIN
+              users ON(post.author_id = users.id)
+              WHERE owner_id = $1
+              ORDER BY time_posted DESC`,
+        values: [_id]
+      })
+      .then(res => {
+        console.log(res.rows)
+        socket.emit('getPostsForUserRes', res.rows)
+      })
+      .catch(err => console.log(err))
+    })
+
+    socket.on('newPost', post => {
+      pool.query({
+        text: 'SELECT * FROM users WHERE id = $1 AND is_banned = TRUE',
+        values: [post.author]
+      })
+      .then(res => {
+        if (res.rowCount) {
+          socket.emit('newPostFail')
+          return
+        }
+      })
+      .catch(err => console.log(err))
+
+      pool.query({
+        text: `INSERT INTO post(author_id, owner_id, post_text, time_posted)
+              VALUES ($1,$2,$3,CURRENT_TIMESTAMP)`,
+        values: [post.author, post.owner, post.text]
+      })
+      .then(() => {
+        socket.emit('newPostSuccess')
+      })
+      .catch(err => {
+        console.log(err)
+        socket.emit('newPostFail')
+      })
+    })
 })
 
 
