@@ -3818,3 +3818,628 @@ user 1 is online
 ]
 User VqXPJYyai6iTFK2DAAAH disconnected
 UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  1w3ABGzsihHsMNEhAAAT
+user 1 is online
+[ { id: '344', user_id: '1', session_id: '1w3ABGzsihHsMNEhAAAT' } ]
+User 1w3ABGzsihHsMNEhAAAT disconnected
+UUID:  1
+User connected, socket id:  zsTTbeXipFSEH7LvAAAV
+user 1 is online
+[ { id: '345', user_id: '1', session_id: 'zsTTbeXipFSEH7LvAAAV' } ]
+User zsTTbeXipFSEH7LvAAAV disconnected
+UUID:  1
+User connected, socket id:  iuSvhMve92hVcMDrAAAX
+user 1 is online
+[ { id: '346', user_id: '1', session_id: 'iuSvhMve92hVcMDrAAAX' } ]
+User iuSvhMve92hVcMDrAAAX disconnected
+UUID:  1
+User connected, socket id:  M07UnFjFsPk9KQfjAAAZ
+user 1 is online
+[ { id: '347', user_id: '1', session_id: 'M07UnFjFsPk9KQfjAAAZ' } ]
+User M07UnFjFsPk9KQfjAAAZ disconnected
+UUID:  0
+UUID:  0
+UUID:  0
+Res.rows:  false
+Res.rows:  false
+Res.rows:  false
+Res.rows:  false
+Res.rows:  false
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  UG0_oqWJazm9d-vXAAAk
+user 1 is online
+[ { id: '348', user_id: '1', session_id: 'UG0_oqWJazm9d-vXAAAk' } ]
+Sending friend list:  [ '26', '66', '1', '6' ]
+user 1 is online
+[ { id: '348', user_id: '1', session_id: 'UG0_oqWJazm9d-vXAAAk' } ]
+user 1 is online
+[ { id: '348', user_id: '1', session_id: 'UG0_oqWJazm9d-vXAAAk' } ]
+User UG0_oqWJazm9d-vXAAAk disconnected
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+New account created:
+
+          Login: user20
+
+          Name: msr abs
+
+          E-mail: 220-230@mail.ru
+
+          Password: 1234
+New UUID:  71
+Sending friend list:  []
+UUID:  71
+User connected, socket id:  kCaB1Dd56UvasAO6AAA6
+user 71 is online
+[ { id: '349', user_id: '71', session_id: 'kCaB1Dd56UvasAO6AAA6' } ]
+User kCaB1Dd56UvasAO6AAA6 disconnected
+UUID:  0
+Res.rows:  false
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  h0tTBg_4QJ-NKKq-AABB
+user 1 is online
+[ { id: '350', user_id: '1', session_id: 'h0tTBg_4QJ-NKKq-AABB' } ]
+user 1 is online
+[ { id: '350', user_id: '1', session_id: 'h0tTBg_4QJ-NKKq-AABB' } ]
+user 1 is online
+[ { id: '350', user_id: '1', session_id: 'h0tTBg_4QJ-NKKq-AABB' } ]
+Sending friend list:  [ '12', '66', '1' ]
+user 1 is online
+[ { id: '350', user_id: '1', session_id: 'h0tTBg_4QJ-NKKq-AABB' } ]
+Sending friend list:  [ '1', '26', '12', '6' ]
+user 1 is online
+[ { id: '350', user_id: '1', session_id: 'h0tTBg_4QJ-NKKq-AABB' } ]
+User h0tTBg_4QJ-NKKq-AABB disconnected
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  []
+Sending friend list:  []
+Sending friend list:  []
+UUID:  71
+User connected, socket id:  80sWVWPikUVXDIBYAABH
+user 71 is online
+[ { id: '351', user_id: '71', session_id: '80sWVWPikUVXDIBYAABH' } ]
+user 71 is online
+[ { id: '351', user_id: '71', session_id: '80sWVWPikUVXDIBYAABH' } ]
+user 71 is online
+[ { id: '351', user_id: '71', session_id: '80sWVWPikUVXDIBYAABH' } ]
+user 71 is online
+[ { id: '351', user_id: '71', session_id: '80sWVWPikUVXDIBYAABH' } ]
+user 71 is online
+[ { id: '351', user_id: '71', session_id: '80sWVWPikUVXDIBYAABH' } ]
+User 80sWVWPikUVXDIBYAABH disconnected
+UUID:  71
+User connected, socket id:  ehBeBFfu0wlTtltPAABJ
+Sending friend list:  [ '12', '66', '1' ]
+////
+add friend request
+////
+////
+Friend added
+////
+Sending friend list:  [ '26' ]
+user 71 is online
+[ { id: '352', user_id: '71', session_id: 'ehBeBFfu0wlTtltPAABJ' } ]
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 71 is online
+[ { id: '352', user_id: '71', session_id: 'ehBeBFfu0wlTtltPAABJ' } ]
+User ehBeBFfu0wlTtltPAABJ disconnected
+UUID:  71
+User connected, socket id:  ZqVzydgjFpqk6aHHAABM
+user 71 is online
+[ { id: '353', user_id: '71', session_id: 'ZqVzydgjFpqk6aHHAABM' } ]
+User ZqVzydgjFpqk6aHHAABM disconnected
+UUID:  71
+User connected, socket id:  9_KAGTrn8Ny47tgzAABO
+Sending friend list:  [ '1', '26', '12', '6' ]
+user 71 is online
+[ { id: '354', user_id: '71', session_id: '9_KAGTrn8Ny47tgzAABO' } ]
+user 71 is online
+[ { id: '354', user_id: '71', session_id: '9_KAGTrn8Ny47tgzAABO' } ]
+user 71 is online
+[ { id: '354', user_id: '71', session_id: '9_KAGTrn8Ny47tgzAABO' } ]
+UUID:  0
+UUID:  0
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 71 is online
+[ { id: '354', user_id: '71', session_id: '9_KAGTrn8Ny47tgzAABO' } ]
+Sending friend list:  [ '1', '26', '12', '6' ]
+Sending friend list:  [ '26', '66', '1', '6' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 71 is online
+[ { id: '354', user_id: '71', session_id: '9_KAGTrn8Ny47tgzAABO' } ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '1', '26', '12', '6' ]
+Sending friend list:  [ '1', '66', '12' ]
+Sending friend list:  [ '1', '26', '12', '6' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+user 71 is online
+[ { id: '354', user_id: '71', session_id: '9_KAGTrn8Ny47tgzAABO' } ]
+UUID:  0
+User 9_KAGTrn8Ny47tgzAABO disconnected
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  7_Z9iCaNOljM4xWRAAGz
+user 1 is online
+[ { id: '355', user_id: '1', session_id: '7_Z9iCaNOljM4xWRAAGz' } ]
+Sending friend list:  [ '26', '66', '1', '6' ]
+user 1 is online
+[ { id: '355', user_id: '1', session_id: '7_Z9iCaNOljM4xWRAAGz' } ]
+user 1 is online
+[ { id: '355', user_id: '1', session_id: '7_Z9iCaNOljM4xWRAAGz' } ]
+Sending friend list:  [ '26', '66', '1', '6' ]
+user 1 is online
+[ { id: '355', user_id: '1', session_id: '7_Z9iCaNOljM4xWRAAGz' } ]
+user 1 is online
+[ { id: '355', user_id: '1', session_id: '7_Z9iCaNOljM4xWRAAGz' } ]
+user 1 is online
+[ { id: '355', user_id: '1', session_id: '7_Z9iCaNOljM4xWRAAGz' } ]
+User 7_Z9iCaNOljM4xWRAAGz disconnected
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '26', '66', '1', '6' ]
+Sending friend list:  [ '26', '66', '1', '6' ]
+UUID:  12
+User connected, socket id:  4o_36BJYWAjSqIVEAAG4
+user 12 is online
+[ { id: '356', user_id: '12', session_id: '4o_36BJYWAjSqIVEAAG4' } ]
+user 12 is online
+[ { id: '356', user_id: '12', session_id: '4o_36BJYWAjSqIVEAAG4' } ]
+user 12 is online
+[ { id: '356', user_id: '12', session_id: '4o_36BJYWAjSqIVEAAG4' } ]
+Sending friend list:  [ '1', '66', '12' ]
+user 12 is online
+[ { id: '356', user_id: '12', session_id: '4o_36BJYWAjSqIVEAAG4' } ]
+Sending friend list:  [ '1', '26', '12', '6' ]
+user 12 is online
+[ { id: '356', user_id: '12', session_id: '4o_36BJYWAjSqIVEAAG4' } ]
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 12 is online
+[ { id: '356', user_id: '12', session_id: '4o_36BJYWAjSqIVEAAG4' } ]
+Sending friend list:  [ '1', '26', '12', '6' ]
+user 12 is online
+[ { id: '356', user_id: '12', session_id: '4o_36BJYWAjSqIVEAAG4' } ]
+User 4o_36BJYWAjSqIVEAAG4 disconnected
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  Q-nHNY3t45EzJ3kNAAG-
+user 1 is online
+[ { id: '357', user_id: '1', session_id: 'Q-nHNY3t45EzJ3kNAAG-' } ]
+user 1 is online
+[ { id: '357', user_id: '1', session_id: 'Q-nHNY3t45EzJ3kNAAG-' } ]
+user 1 is online
+[ { id: '357', user_id: '1', session_id: 'Q-nHNY3t45EzJ3kNAAG-' } ]
+user 1 is online
+[ { id: '357', user_id: '1', session_id: 'Q-nHNY3t45EzJ3kNAAG-' } ]
+user 1 is online
+[ { id: '357', user_id: '1', session_id: 'Q-nHNY3t45EzJ3kNAAG-' } ]
+Sending friend list:  [ '1', '66', '12' ]
+user 1 is online
+[ { id: '357', user_id: '1', session_id: 'Q-nHNY3t45EzJ3kNAAG-' } ]
+User Q-nHNY3t45EzJ3kNAAG- disconnected
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  SctnJqgHXLQeo4GVAAHF
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Sending friend list:  [ '26', '66', '1', '6' ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Request for every users data
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Request for every users data
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Sending friend list:  [ '1', '66', '12' ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Request for every users data
+Sending friend list:  []
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Request for every users data
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Sending friend list:  [ '69', '65' ]
+Sending friend list:  [ '69', '70' ]
+Sending friend list:  [ '69', '65' ]
+Sending friend list:  [ '69', '70' ]
+Deleting user:  65
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+Request for every users data
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+user 1 is online
+[ { id: '358', user_id: '1', session_id: 'SctnJqgHXLQeo4GVAAHF' } ]
+Sending friend list:  [ '69' ]
+User SctnJqgHXLQeo4GVAAHF disconnected
+UUID:  1
+User connected, socket id:  g5qemabyqq84XlobAAHH
+Sending friend list:  [ '69' ]
+User g5qemabyqq84XlobAAHH disconnected
+UUID:  0
+Res.rows:  true
+User logged in
+Sending friend list:  [ '6', '66', '12', '26' ]
+UUID:  1
+User connected, socket id:  wg-GpYMWvi4QPcxXAAHL
+user 1 is online
+[ { id: '360', user_id: '1', session_id: 'wg-GpYMWvi4QPcxXAAHL' } ]
+Request for every users data
+user 1 is online
+[ { id: '360', user_id: '1', session_id: 'wg-GpYMWvi4QPcxXAAHL' } ]
+User wg-GpYMWvi4QPcxXAAHL disconnected
+UUID:  1
+User connected, socket id:  jxCSyiKWV9LI9YIoAAHN
+Request for every users data
+user 1 is online
+[ { id: '361', user_id: '1', session_id: 'jxCSyiKWV9LI9YIoAAHN' } ]
+Sending friend list:  [ '69' ]
+Request for every users data
+user 1 is online
+[ { id: '361', user_id: '1', session_id: 'jxCSyiKWV9LI9YIoAAHN' } ]
+Sending friend list:  [ '69' ]
+Request for every users data
+user 1 is online
+[ { id: '361', user_id: '1', session_id: 'jxCSyiKWV9LI9YIoAAHN' } ]
+Sending friend list:  [ '69' ]
+Request for every users data
+user 1 is online
+[ { id: '361', user_id: '1', session_id: 'jxCSyiKWV9LI9YIoAAHN' } ]
+user 1 is online
+[ { id: '361', user_id: '1', session_id: 'jxCSyiKWV9LI9YIoAAHN' } ]
+User jxCSyiKWV9LI9YIoAAHN disconnected
+UUID:  1
+User connected, socket id:  fVOR_V_zmfSeT2EGAAHP
+User fVOR_V_zmfSeT2EGAAHP disconnected
+UUID:  1
+User connected, socket id:  grZXq7Nt6GStUrAIAAHR
+user 1 is online
+[ { id: '363', user_id: '1', session_id: 'grZXq7Nt6GStUrAIAAHR' } ]
+User grZXq7Nt6GStUrAIAAHR disconnected
+UUID:  1
+User connected, socket id:  IZdAnvD3S11rdD3XAAHT
+user 1 is online
+[ { id: '364', user_id: '1', session_id: 'IZdAnvD3S11rdD3XAAHT' } ]
+User IZdAnvD3S11rdD3XAAHT disconnected
+UUID:  1
+User connected, socket id:  fTO3e2Z6mlwreXS5AAHV
+user 1 is online
+[ { id: '365', user_id: '1', session_id: 'fTO3e2Z6mlwreXS5AAHV' } ]
+User fTO3e2Z6mlwreXS5AAHV disconnected
+UUID:  1
+User connected, socket id:  qpLAOfS04nfYAXxtAAHX
+user 1 is online
+[ { id: '366', user_id: '1', session_id: 'qpLAOfS04nfYAXxtAAHX' } ]
+User qpLAOfS04nfYAXxtAAHX disconnected
+UUID:  1
+User connected, socket id:  noyB0UZYwacFpX01AAHZ
+user 1 is online
+[ { id: '367', user_id: '1', session_id: 'noyB0UZYwacFpX01AAHZ' } ]
+User noyB0UZYwacFpX01AAHZ disconnected
+UUID:  1
+User connected, socket id:  DiEMDI0FARbMkp4NAAHb
+user 1 is online
+[ { id: '368', user_id: '1', session_id: 'DiEMDI0FARbMkp4NAAHb' } ]
+User DiEMDI0FARbMkp4NAAHb disconnected
+UUID:  1
+User connected, socket id:  jl8SqAsWnnLjZiOZAAHd
+user 1 is online
+[ { id: '369', user_id: '1', session_id: 'jl8SqAsWnnLjZiOZAAHd' } ]
+User jl8SqAsWnnLjZiOZAAHd disconnected
+UUID:  1
+User connected, socket id:  j4qwNU1hxJmtQgwEAAHf
+User j4qwNU1hxJmtQgwEAAHf disconnected
+UUID:  1
+User connected, socket id:  m7tAvpyTXuL-p92EAAHh
+User m7tAvpyTXuL-p92EAAHh disconnected
+UUID:  1
+User connected, socket id:  q27LLij_HVNo1o4IAAHj
+User q27LLij_HVNo1o4IAAHj disconnected
+UUID:  1
+User connected, socket id:  Mcem2wmn3uUtAu19AAHl
+User Mcem2wmn3uUtAu19AAHl disconnected
+UUID:  1
+User connected, socket id:  mLNv47k_c2nH8URRAAHn
+User mLNv47k_c2nH8URRAAHn disconnected
+UUID:  1
+User connected, socket id:  84SlOetGSqKetVX6AAHp
+User 84SlOetGSqKetVX6AAHp disconnected
+UUID:  1
+User connected, socket id:  a4TFgb0l4jTiAz_lAAHr
+User a4TFgb0l4jTiAz_lAAHr disconnected
+UUID:  1
+User connected, socket id:  Duj1J3Yj_XeAW3c8AAHt
+User Duj1J3Yj_XeAW3c8AAHt disconnected
+UUID:  1
+User connected, socket id:  inf6bigHjCnk-bQlAAHv
+User inf6bigHjCnk-bQlAAHv disconnected
+UUID:  1
+User connected, socket id:  gZhut5O0aSOE2gQuAAHx
+User gZhut5O0aSOE2gQuAAHx disconnected
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  1
+User connected, socket id:  5K-MMV-dOeb0b7yIAAIA
+User 5K-MMV-dOeb0b7yIAAIA disconnected
+UUID:  1
+User connected, socket id:  suIocgWA-mt6TJ4fAAIC
+user 1 is online
+[ { id: '381', user_id: '1', session_id: 'suIocgWA-mt6TJ4fAAIC' } ]
+UUID:  1
+User connected, socket id:  wGIzOa3Y_dPggxoVAAIE
+user 1 is online
+[
+  { id: '381', user_id: '1', session_id: 'suIocgWA-mt6TJ4fAAIC' },
+  { id: '382', user_id: '1', session_id: 'wGIzOa3Y_dPggxoVAAIE' }
+]
+User suIocgWA-mt6TJ4fAAIC disconnected
+User wGIzOa3Y_dPggxoVAAIE disconnected
+UUID:  1
+User connected, socket id:  vxxvIpfpnqTiHs34AAIG
+user 1 is online
+[ { id: '383', user_id: '1', session_id: 'vxxvIpfpnqTiHs34AAIG' } ]
+User vxxvIpfpnqTiHs34AAIG disconnected
+UUID:  1
+User connected, socket id:  setPctXtN1Yu8d7fAAII
+user 1 is online
+[ { id: '384', user_id: '1', session_id: 'setPctXtN1Yu8d7fAAII' } ]
+User setPctXtN1Yu8d7fAAII disconnected
+UUID:  1
+User connected, socket id:  VnRMcm4ZGkKxD8sSAAIK
+user 1 is online
+[ { id: '385', user_id: '1', session_id: 'VnRMcm4ZGkKxD8sSAAIK' } ]
+User VnRMcm4ZGkKxD8sSAAIK disconnected
+UUID:  1
+User connected, socket id:  nzLAIzPBB7aWP4-SAAIM
+user 1 is online
+[ { id: '386', user_id: '1', session_id: 'nzLAIzPBB7aWP4-SAAIM' } ]
+User nzLAIzPBB7aWP4-SAAIM disconnected
+UUID:  1
+User connected, socket id:  TarC_G73-jyZXALRAAIO
+user 1 is online
+[ { id: '387', user_id: '1', session_id: 'TarC_G73-jyZXALRAAIO' } ]

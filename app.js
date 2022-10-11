@@ -1,5 +1,7 @@
 import express from 'express'
 import fs from 'fs'
+import cors from 'cors'
+import bodyParser from 'body-parser'
 import { Server } from "socket.io"
 import pg from 'pg'
 const { Pool } = pg
@@ -12,8 +14,13 @@ const PORT = process.env.PORT_HTTP
 const PORT_SOCKET = process.env.VITE_PORT_SOCKET
 const app = express()
 const urlencodedParser = express.urlencoded({extended: false})
+app.use(cors())
 app.use(express.static('./dist'))
-app.use(express.urlencoded({extended: true}))
+// app.use(express.urlencoded({extended: true}))
+// app.use(bodyParser.urlencoded({
+//   extended: true
+// }))
+app.use(bodyParser.json())
 const io = new Server({
     cors : {
         origin: '*'
@@ -30,6 +37,12 @@ app.get('*', (req, res) => {
         if (err) throw err
         res.send(data)
     })
+})
+
+app.post('/saveImage', (req, res) => {
+  console.log('/saveImage headers: ', req.headers)
+  console.log('/saveImage body: ', req.body)
+  res.sendStatus(200)
 })
 
 io.on('connection', (socket) => {
@@ -311,6 +324,22 @@ io.on('connection', (socket) => {
       })
     })
 
+    socket.on('getRandomUsers', exceptList => {
+      console.log('exceptList: ', exceptList.split(','))
+      pool.query({
+        text: `SELECT id FROM users
+              WHERE id <> ALL($1::int[])
+              ORDER BY RANDOM()
+              LIMIT 6`,
+        values: [exceptList.split(',')]
+      })
+      .then(res => {
+        console.log('got random users: ')
+        console.log(res.rows.map(id => id = id.id))
+        socket.emit('getRandomUsersRes', res.rows.map(id => id = id.id))
+      })
+      // .catch(err => console.log(`Error in getRandomUsers: ${err}`))
+    })
 })
 
 
