@@ -4443,3 +4443,1506 @@ UUID:  1
 User connected, socket id:  TarC_G73-jyZXALRAAIO
 user 1 is online
 [ { id: '387', user_id: '1', session_id: 'TarC_G73-jyZXALRAAIO' } ]
+Listening to 62.113.97.215:80
+UUID:  78
+Error while starting session:  Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Error while ending session:  Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+UUID:  78
+Error while starting session:  Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+UUID:  78
+User udS70NNseGFKCRbWAAAH disconnected
+Error while starting session:  Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+User eQSaNRt_VAcZX8stAAAL disconnected
+UUID:  78
+User connected, socket id:  a04CxM_aCE54I0SrAAAO
+User a04CxM_aCE54I0SrAAAO disconnected
+UUID:  78
+User connected, socket id:  WpAt22kSOfgEOyDiAAAQ
+User WpAt22kSOfgEOyDiAAAQ disconnected
+UUID:  78
+User connected, socket id:  Y6vUl3-zbmYuUTXHAAAS
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1455', user_id: '78', session_id: 'Y6vUl3-zbmYuUTXHAAAS' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+exceptList:  [ '78' ]
+Request for posts. User:  78
+got random users: 
+[ '22', '62', '16', '27', '71', '75' ]
+[]
+User Y6vUl3-zbmYuUTXHAAAS disconnected
+UUID:  78
+User connected, socket id:  pxG8GypURBgBA-eOAAAU
+User pxG8GypURBgBA-eOAAAU disconnected
+UUID:  78
+User connected, socket id:  q9wD0PEJqb32d4feAAAY
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1457', user_id: '78', session_id: 'q9wD0PEJqb32d4feAAAY' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+exceptList:  [ '78' ]
+Request for posts. User:  78
+got random users: 
+[ '22', '69', '77', '17', '56', '73' ]
+Error in getPostsForUser:  Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+User q9wD0PEJqb32d4feAAAY disconnected
+UUID:  78
+User connected, socket id:  UpPIRmkxMgRjELQBAAAa
+User UpPIRmkxMgRjELQBAAAa disconnected
+UUID:  78
+User connected, socket id:  BcFlBb4yKlH6PmQ-AAAc
+User BcFlBb4yKlH6PmQ-AAAc disconnected
+UUID:  78
+User connected, socket id:  S8m-W1alH8HxP5ZjAAAe
+User S8m-W1alH8HxP5ZjAAAe disconnected
+UUID:  78
+User connected, socket id:  ctINodQDFuops8AjAAAh
+User ctINodQDFuops8AjAAAh disconnected
+UUID:  78
+exceptList:  [ '78' ]
+Request for posts. User:  78
+User connected, socket id:  rTRxcCT37Qw51H2NAAAj
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1462', user_id: '78', session_id: 'rTRxcCT37Qw51H2NAAAj' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+got random users: 
+[ '73', '16', '25', '31', '1', '75' ]
+[]
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+User rTRxcCT37Qw51H2NAAAj disconnected
+UUID:  78
+User connected, socket id:  IYY5-gGMRv1siLrHAAAl
+User IYY5-gGMRv1siLrHAAAl disconnected
+UUID:  78
+User connected, socket id:  2_BuPDQ8SVcVl1EqAAAn
+User 2_BuPDQ8SVcVl1EqAAAn disconnected
+UUID:  78
+User connected, socket id:  yG6pSQRnRiqcF9sFAAAp
+User yG6pSQRnRiqcF9sFAAAp disconnected
+UUID:  78
+User connected, socket id:  DKN6zpWWYsP0_BwFAAAr
+User DKN6zpWWYsP0_BwFAAAr disconnected
+UUID:  0
+UUID:  78
+User connected, socket id:  MWMGkgY_NnnMmus3AAAz
+User MWMGkgY_NnnMmus3AAAz disconnected
+UUID:  78
+User connected, socket id:  2VQ4-XIPiGNtjC_8AAA1
+User 2VQ4-XIPiGNtjC_8AAA1 disconnected
+UUID:  78
+User connected, socket id:  QkY5KkHRo2WgynCZAAA3
+User QkY5KkHRo2WgynCZAAA3 disconnected
+UUID:  78
+User connected, socket id:  cbsFfSkjERn1C7VlAAA5
+User cbsFfSkjERn1C7VlAAA5 disconnected
+UUID:  78
+User connected, socket id:  g3LmQrQFcYKLnrStAAA7
+User g3LmQrQFcYKLnrStAAA7 disconnected
+UUID:  78
+User connected, socket id:  neiEiIP7zOqx8RdHAAA9
+User neiEiIP7zOqx8RdHAAA9 disconnected
+UUID:  1
+User connected, socket id:  Y4serRp8Iu2-Z7mZAAA_
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1473', user_id: '1', session_id: 'Y4serRp8Iu2-Z7mZAAA_' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '75', '16', '68', '23', '19', '77' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+User Y4serRp8Iu2-Z7mZAAA_ disconnected
+UUID:  0
+Sending friend list:  [ '26', '66', '1' ]
+UUID:  12
+User connected, socket id:  wvxdoTIXbxe0yZ6mAABD
+user 12 is online
+[ { id: '1474', user_id: '12', session_id: 'wvxdoTIXbxe0yZ6mAABD' } ]
+exceptList:  [ '12', '26', '66', '1' ]
+Request for posts. User:  12
+got random users: 
+[ '56', '64', '77', '75', '74', '69' ]
+[
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'hi',
+    post_image: null,
+    time_posted: 2022-10-11T19:12:22.196Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Hello',
+    post_image: null,
+    time_posted: 2022-10-11T19:05:49.988Z
+  }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+image :  avatar_12.jpg
+Sending friend list:  [ '26', '66', '1' ]
+user 12 is online
+[ { id: '1474', user_id: '12', session_id: 'wvxdoTIXbxe0yZ6mAABD' } ]
+exceptList:  [ '12', '26', '66', '1' ]
+Request for posts. User:  12
+got random users: 
+[ '64', '77', '17', '68', '31', '56' ]
+[
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'hi',
+    post_image: null,
+    time_posted: 2022-10-11T19:12:22.196Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Hello',
+    post_image: null,
+    time_posted: 2022-10-11T19:05:49.988Z
+  }
+]
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+User wvxdoTIXbxe0yZ6mAABD disconnected
+UUID:  12
+User connected, socket id:  h_AA-xpJ4uVIiZ07AABF
+user 12 is online
+[ { id: '1475', user_id: '12', session_id: 'h_AA-xpJ4uVIiZ07AABF' } ]
+exceptList:  [ '12', '26', '66', '1' ]
+Request for posts. User:  12
+got random users: 
+[ '22', '74', '14', '17', '73', '33' ]
+[
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'hi',
+    post_image: null,
+    time_posted: 2022-10-11T19:12:22.196Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Hello',
+    post_image: null,
+    time_posted: 2022-10-11T19:05:49.988Z
+  }
+]
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+User h_AA-xpJ4uVIiZ07AABF disconnected
+UUID:  0
+Sending friend list:  [ '74', '62', '66', '26', '25', '12' ]
+UUID:  1
+User connected, socket id:  N1__LRGli0S69jD_AABJ
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1476', user_id: '1', session_id: 'N1__LRGli0S69jD_AABJ' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '23', '17', '14', '57', '56', '33' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+Request for posts. User:  23
+[]
+Sending friend list:  []
+Ban user:  23
+user 23 banned/unbanned 
+Request for posts. User:  12
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+Request for posts. User:  23
+[
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'hi',
+    post_image: null,
+    time_posted: 2022-10-11T19:12:22.196Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Hello',
+    post_image: null,
+    time_posted: 2022-10-11T19:05:49.988Z
+  }
+]
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1476', user_id: '1', session_id: 'N1__LRGli0S69jD_AABJ' }
+]
+got random users: 
+[ '57', '70', '23', '17', '27', '56' ]
+[]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+Sending friend list:  [ '26', '66', '1' ]
+Sending friend list:  []
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1476', user_id: '1', session_id: 'N1__LRGli0S69jD_AABJ' }
+]
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1476', user_id: '1', session_id: 'N1__LRGli0S69jD_AABJ' }
+]
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1476', user_id: '1', session_id: 'N1__LRGli0S69jD_AABJ' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '22', '23', '16', '31', '27', '69' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+User N1__LRGli0S69jD_AABJ disconnected
+UUID:  78
+User connected, socket id:  QJkw_H4w8h1LfK_uAABL
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' },
+  { id: '1477', user_id: '78', session_id: 'QJkw_H4w8h1LfK_uAABL' }
+]
+exceptList:  [ '78' ]
+Request for posts. User:  78
+got random users: 
+[ '74', '12', '57', '33', '64', '22' ]
+[]
+User QJkw_H4w8h1LfK_uAABL disconnected
+UUID:  0
+Sending friend list:  [ '74', '62', '66', '26', '25', '12' ]
+UUID:  1
+User connected, socket id:  nQNr97X5DCdjM0sbAABP
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1478', user_id: '1', session_id: 'nQNr97X5DCdjM0sbAABP' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '77', '78', '68', '19', '33', '69' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+User nQNr97X5DCdjM0sbAABP disconnected
+UUID:  1
+User connected, socket id:  hT1WL3KRfSrpbP5hAABR
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1479', user_id: '1', session_id: 'hT1WL3KRfSrpbP5hAABR' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '75', '19', '27', '56', '33', '14' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+UUID:  1
+User connected, socket id:  0oZo0w2yF6rFdMLqAABT
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1479', user_id: '1', session_id: 'hT1WL3KRfSrpbP5hAABR' },
+  { id: '1480', user_id: '1', session_id: '0oZo0w2yF6rFdMLqAABT' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '57', '73', '69', '64', '31', '33' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+User 0oZo0w2yF6rFdMLqAABT disconnected
+UUID:  1
+User connected, socket id:  ZsLqj7CYpGOZ1uDvAABV
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1479', user_id: '1', session_id: 'hT1WL3KRfSrpbP5hAABR' },
+  { id: '1481', user_id: '1', session_id: 'ZsLqj7CYpGOZ1uDvAABV' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '16', '69', '56', '14', '64', '68' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+User hT1WL3KRfSrpbP5hAABR disconnected
+User ZsLqj7CYpGOZ1uDvAABV disconnected
+UUID:  1
+User connected, socket id:  6gvbWV36A56IvpSdAABX
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1482', user_id: '1', session_id: '6gvbWV36A56IvpSdAABX' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '57', '27', '70', '77', '71', '31' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+User 6gvbWV36A56IvpSdAABX disconnected
+UUID:  1
+User connected, socket id:  XxU9rDB7abcFOk40AABa
+UUID:  1
+User connected, socket id:  NV7SF2L-ian_g6jxAABb
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1483', user_id: '1', session_id: 'XxU9rDB7abcFOk40AABa' },
+  { id: '1484', user_id: '1', session_id: 'NV7SF2L-ian_g6jxAABb' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '75', '70', '31', '22', '78', '17' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+User XxU9rDB7abcFOk40AABa disconnected
+User NV7SF2L-ian_g6jxAABb disconnected
+UUID:  1
+User connected, socket id:  _aagyv8yzuZR9WY5AABd
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1485', user_id: '1', session_id: '_aagyv8yzuZR9WY5AABd' }
+]
+User _aagyv8yzuZR9WY5AABd disconnected
+UUID:  1
+User connected, socket id:  wQQXPB9DveuRIb1IAABg
+user 1 is online
+[
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' },
+  { id: '1486', user_id: '1', session_id: 'wQQXPB9DveuRIb1IAABg' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '64', '22', '19', '70', '57', '56' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+User wQQXPB9DveuRIb1IAABg disconnected
+UUID:  1
+User connected, socket id:  vEsa1aevnIxti6jGAABi
+user 1 is online
+[
+  { id: '1487', user_id: '1', session_id: 'vEsa1aevnIxti6jGAABi' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '78', '73', '14', '77', '68', '31' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+User vEsa1aevnIxti6jGAABi disconnected
+UUID:  1
+User connected, socket id:  P6WO07Rb2nXFBJLhAABk
+user 1 is online
+[
+  { id: '1488', user_id: '1', session_id: 'P6WO07Rb2nXFBJLhAABk' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '17', '69', '14', '33', '68', '71' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+User P6WO07Rb2nXFBJLhAABk disconnected
+UUID:  1
+User connected, socket id:  C5wBLgDl5IGE99v9AABm
+user 1 is online
+[
+  { id: '1489', user_id: '1', session_id: 'C5wBLgDl5IGE99v9AABm' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '57', '64', '70', '71', '73', '16' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+User C5wBLgDl5IGE99v9AABm disconnected
+UUID:  1
+User connected, socket id:  qiACLgVqy5q_KAmeAABo
+user 1 is online
+[
+  { id: '1490', user_id: '1', session_id: 'qiACLgVqy5q_KAmeAABo' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+User qiACLgVqy5q_KAmeAABo disconnected
+UUID:  1
+User connected, socket id:  -kBclQEuhAd5v-lUAABq
+user 1 is online
+[
+  { id: '1491', user_id: '1', session_id: '-kBclQEuhAd5v-lUAABq' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '17', '64', '78', '19', '73', '23' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+User -kBclQEuhAd5v-lUAABq disconnected
+UUID:  1
+User connected, socket id:  Q8YB5N2GYolqia5TAABs
+user 1 is online
+[
+  { id: '1492', user_id: '1', session_id: 'Q8YB5N2GYolqia5TAABs' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '64', '23', '68', '19', '17', '77' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+User Q8YB5N2GYolqia5TAABs disconnected
+UUID:  1
+User connected, socket id:  zgXHXsNfuZ9pifXDAABu
+user 1 is online
+[
+  { id: '1493', user_id: '1', session_id: 'zgXHXsNfuZ9pifXDAABu' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '71', '57', '31', '77', '64', '22' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 77 is online
+[
+  { id: '1373', user_id: '77', session_id: '0lSBCnBtJRsFodrkAAAy' },
+  { id: '1375', user_id: '77', session_id: 'rTT1J_TDRhLznZCqAAAD' },
+  { id: '1383', user_id: '77', session_id: 'LNTYX14cQNHBiRBSAAAP' }
+]
+User zgXHXsNfuZ9pifXDAABu disconnected
+UUID:  1
+User connected, socket id:  6CiFbOf5RwmdBDsFAABw
+user 1 is online
+[
+  { id: '1494', user_id: '1', session_id: '6CiFbOf5RwmdBDsFAABw' },
+  { id: '1442', user_id: '1', session_id: 'rqS1UqbkeeQEKy_ZAABE' },
+  { id: '1443', user_id: '1', session_id: 'iZZTYAfryZPzVWX_AABF' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '14', '68', '78', '22', '69', '71' ]
+[
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'good morning',
+    post_image: null,
+    time_posted: 2022-10-13T11:24:45.824Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'What',
+    post_image: null,
+    time_posted: 2022-10-12T17:00:24.639Z
+  },
+  {
+    author_id: '12',
+    user_login: 'testa',
+    is_admin: false,
+    post_text: 'привет',
+    post_image: null,
+    time_posted: 2022-10-11T19:13:09.102Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'Test',
+    post_image: null,
+    time_posted: 2022-10-11T19:01:50.886Z
+  },
+  {
+    author_id: '1',
+    user_login: 'wallodya',
+    is_admin: true,
+    post_text: 'some short exapmle text',
+    post_image: '../lib/img/default_prof_pic.png',
+    time_posted: 2022-10-11T15:24:05.488Z
+  }
+]
+user 78 is online
+[
+  { id: '1452', user_id: '78', session_id: 'p0zYVNqA05K_fC3RAABf' },
+  { id: '1398', user_id: '78', session_id: 'VUQ92Cp7JbEiEiOlAAA6' },
+  { id: '1399', user_id: '78', session_id: 'Mhb7ZAzdfqFRPaDZAAAB' },
+  { id: '1413', user_id: '78', session_id: 'hjX9UqVy_luFm0FhAAAh' }
+]
+UUID:  0
+UUID:  0
+UUID:  0

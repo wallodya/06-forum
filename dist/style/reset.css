@@ -12,6 +12,10 @@
   padding: 0;
   font: inherit;
 }
+
+dialog {
+  margin: auto;
+}
 /* 
   Remove list and link styling
 */
@@ -84,3 +88,6 @@ p, h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.filepond--credits {
+  display: none;
+}

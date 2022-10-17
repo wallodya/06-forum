@@ -71,13 +71,14 @@ export class UserBadge extends Container {
     constructor (_userInfo, _attrList, _isOnAdminPage=false, _isDeleted=false) {
         let badgeContent = []
         const avatar = new Element(
-            'div',
-            ['avatar-header']
+            'img',
+            ['avatar-header'],
+            {src: _userInfo.avatar}
         ).__init__()
 
-        _isDeleted
-            ? avatar.style.background = 'center/contain no-repeat url(../lib/img/deleted_prof_pic.png)'
-            : avatar.style.background = `center/contain no-repeat url(${_userInfo.avatar})`
+        // _isDeleted
+        //     ? avatar.style.background = 'center/contain no-repeat url(../lib/img/deleted_prof_pic.png)'
+        //     : avatar.style.background = `center/contain no-repeat url(${_userInfo.avatar})`
         badgeContent.push(avatar)
 
         const username = new Element(
@@ -148,7 +149,7 @@ export class InputLabel extends Element {
 }
 
 export class Form extends Element {
-    constructor (_heading='', _inputFields=[], _classList=[], _attrList={}, _buttonText='Submit') {
+    constructor (_heading='', _inputFields=[], _classList=[], _attrList={}, _buttonText='Submit', _hasAnimation=true) {
         let formChildren = []
 
         const heading = new Element(
@@ -164,7 +165,7 @@ export class Form extends Element {
             const label = new InputLabel(field).__init__()
             const input = new Input(field).__init__()
 
-            if (!isFirstInput) {
+            if (!isFirstInput && _hasAnimation) {
                 label.classList.add('label-unused')
                 input.classList.add('input-unused')
             }
@@ -177,6 +178,9 @@ export class Form extends Element {
             label.style.opacity = '0'
 
             input.addEventListener('input', () => {
+                const newInputEvent = new Event('newInputAfterFail', {'bubbles': true})
+                window.dispatchEvent(newInputEvent)
+                
                 label.classList.remove('label-unused')
                 input.classList.remove('input-unused')
 
@@ -224,23 +228,31 @@ export class Post extends Element {
 
 
 export const loadUserBadges = (_users, _container, _isOnAdminPage=false) => {
-    console.log('Loading badges for: ', _users)
+    // console.log('Loading badges for: ', _users)
     if (!_users || !_users[0]) {
         console.log('No badges need to be loaded');
         return
     }   
-    console.log('loadUserBadges isArray: ', Array.isArray(_users))
+    // console.log('loadUserBadges isArray: ', Array.isArray(_users))
     getUsersData(_users)
     .then(data => {
         let p = Promise.resolve()
-        console.log('data:')
-        console.log(data);
+        // console.log('data:')
+        // console.log(data);
         for (let user of data) {
-            console.log('loadUserBadges loading user:', user)
+            // console.log('loadUserBadges loading user:', user)
             const userBadge = new UserBadge(user, {id: `${user.id}`}, _isOnAdminPage).__init__()
-            p = p.then(() => getOnlineStatus(user.id))
-            .then(status => userBadge.childNodes[1].childNodes[1].innerText = status)
-            .catch(status => userBadge.childNodes[1].childNodes[1].innerText = status)
+            p = p.then(() => {
+                userBadge.childNodes[1].childNodes[1].innerText = 'loading...'
+                userBadge.childNodes[1].childNodes[1].classList.add('loading-text')
+                getOnlineStatus(user.id)
+                .then(status => {                    
+                    userBadge.childNodes[1].childNodes[1].classList.remove('loading-text')
+                    userBadge.childNodes[1].childNodes[1].innerText = status
+                })
+                .catch(status => userBadge.childNodes[1].childNodes[1].innerText = status)
+            })
+            
             userBadge.onclick = () => {
                 renderPath(false, '/user' + user.id)
             }

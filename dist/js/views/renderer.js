@@ -20,6 +20,10 @@ export const renderPage = (user) => {
     const contentWrap = document.createElement('div')
     const header = document.createElement('div')
     const page = document.createElement('div')
+
+    const loader = document.createElement('div')
+    loader.setAttribute('class', 'lds-grid')
+    loader.innerHTML = '<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>'
     
     // Content center is added in case side bars will be added later (content-side)
     // All elements aside from header will be rendered inside 'content' element
@@ -28,12 +32,13 @@ export const renderPage = (user) => {
     contentWrap.setAttribute('class', '__page-content-wrap')
     header.setAttribute('class', '__page-header-wrap')
     page.setAttribute('class', '__page-wrap')
-
+    
+    
     ROOT.innerHTML = ''
+
 
     // renderPage resieves object user with data about loggin user,
     // when user=null client is considered a guest user (may change later)
-    console.log('user from render page: ', user)
     header.append(Pages.renderHeader())
     contentWrap.append(content)
     page.append(header, contentWrap)
@@ -48,7 +53,8 @@ export const renderPage = (user) => {
     }
     
     // Appending page wrapper element to the #root div inside '/index.html'
-    ROOT.append(page)    
+
+    ROOT.append(page)   
 }
 
 

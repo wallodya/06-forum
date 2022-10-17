@@ -2,6 +2,7 @@
     padding: .5em 1.5em;
     font-size: var(--fs-300);
     font-weight: var(--fw-bold);
+    white-space: nowrap;
     border: none;
     background: none;
 }

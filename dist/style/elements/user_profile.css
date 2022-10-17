@@ -1,7 +1,3 @@
-.news-feed-container-user {
-    height: 10em;
-}
-
 .user-friends-container {
     height: fit-content;
     display: flex;
@@ -25,7 +21,10 @@
     height: 100%;
 }
 
-
+.admin-controls {
+    margin-left: auto;
+    margin-bottom: auto;
+}
 
 
 [class*="user-badge"] {
@@ -57,4 +56,9 @@
 .badge-info-container {
     align-items: flex-end;
     justify-self: flex-end;
+}
+
+
+.filepond--drop-label {
+    border: none;
 }

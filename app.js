@@ -1,12 +1,20 @@
 import express from 'express'
 import fs from 'fs'
 import cors from 'cors'
+import logger from 'morgan'
+import fileUpload from 'express-fileupload'
 import bodyParser from 'body-parser'
 import { Server } from "socket.io"
 import pg from 'pg'
-const { Pool } = pg
+import path from 'path'
+import cookieParser from 'cookie-parser'
+// import { createThumbnail } from './post_image_gen.js'
 import * as dotenv from 'dotenv'
+
+const { Pool } = pg
 dotenv.config()
+
+const __dirname = path.resolve()
 
 const HOST = process.env.VITE_HOST
 const HOST_DB = process.env.HOST_DB
@@ -14,13 +22,18 @@ const PORT = process.env.PORT_HTTP
 const PORT_SOCKET = process.env.VITE_PORT_SOCKET
 const app = express()
 const urlencodedParser = express.urlencoded({extended: false})
-app.use(cors())
+app.use(cors({
+  origin: "*"
+}))
+// app.use(logger('dev'))
 app.use(express.static('./dist'))
-// app.use(express.urlencoded({extended: true}))
-// app.use(bodyParser.urlencoded({
-//   extended: true
-// }))
+app.use('/avatar', express.static('./images/avatars'))
+app.use('/post', express.static('./images/posts'))
+
+app.use(fileUpload())
 app.use(bodyParser.json())
+app.use(cookieParser())
+
 const io = new Server({
     cors : {
         origin: '*'
@@ -39,10 +52,37 @@ app.get('*', (req, res) => {
     })
 })
 
-app.post('/saveImage', (req, res) => {
-  console.log('/saveImage headers: ', req.headers)
-  console.log('/saveImage body: ', req.body)
-  res.sendStatus(200)
+app.post('/loadImage', (req, res) => {
+  const { avatar } = req.files
+  if (!avatar) return res.sendStatus(400)
+  if (!/^image/.test(avatar.mimetype)) return res.sendStatus(400)
+  avatar.mv(__dirname + '/tmp/' + avatar.name)
+  console.log('image : ', avatar.name)
+  res.send(JSON.stringify({key: avatar.name}))
+})
+
+app.delete('/revertAvatarUpload', (req, res) => {
+  console.log('revert res.body: ', req.method, req.body.id)
+  fs.unlink(__dirname + '/tmp/' + req.body.id, err => {
+    if (err) console.log('Error while rm tmp avatar file: ', err)
+  })
+})
+
+app.post('/loadPostImage', (req, res) => {
+  console.log('/loadPstImage: ', req.files)
+  const postImage = req.files.post_pic
+  if (!postImage) return res.sendStatus(400)
+  if (!/^image/.test(postImage.mimetype)) return res.sendStatus(400)
+  postImage.mv(__dirname + '/tmp/' + postImage.name)
+  console.log('post image : ', postImage.name)
+  res.send(JSON.stringify({key: postImage.name}))
+})
+
+app.delete('/revertPostImageUpload', (req, res) => {
+  console.log('revert res.body: ', req.method, req.body.id)
+  fs.unlink(__dirname + '/tmp/' + req.body.id, err => {
+    if (err) console.log('Error while rm tmp post file: ', err)
+  })
 })
 
 io.on('connection', (socket) => {
@@ -103,17 +143,10 @@ io.on('connection', (socket) => {
           values: [data.login]
         })
         .then(res => {
-          console.log('Res.rows: ', !!res.rows[0])
-          if (res.rows[0]) {
-            if (data.password === res.rows[0].user_password) {
-              console.log('User logged in')
-              socket.emit('loginSuccess', res.rows[0].id)
-            } else {
-              socket.emit('loginFail', 'wrong_password')
-            }
-          } else {
-            socket.emit('loginFail', 'login_not_exist')
-          }
+          // console.log('Res.rows: ', !!res.rowCount)
+          res.rowCount && data.password === res.rows[0].user_password
+            ? socket.emit('loginSuccess', res.rows[0].id)
+            : socket.emit('loginFail')
         })
         .catch(err => console.log(err))
       }
@@ -268,10 +301,10 @@ io.on('connection', (socket) => {
     })
 
     socket.on(`changeProfileData`, (newData) => {
-        console.log(`${DB_TEST[newData.userId].userName} changed profile data:
-                    New login: ${newData.newLogin}
+        console.log(`Changed profile data:
+                    New name: ${newData.newName}
                     New e-mail: ${newData.newEmail}`)
-        socket.emit(`profileDataChangedForUser${newData.userId}`, 'Your data changned!!!')
+        socket.emit(`profileDataChangedForUser${newData.userId}`, 'Your data changed!!!')
     })
 
     socket.on('ban', _userId => {
@@ -324,21 +357,24 @@ io.on('connection', (socket) => {
       })
     })
 
-    socket.on('getRandomUsers', exceptList => {
-      console.log('exceptList: ', exceptList.split(','))
+    socket.on('getRandomUsers', _exceptList => {
+      // !_exceptList 
+      //   ? _exceptList = [0] 
+      //   : _exceptList = _exceptList.split(',')
+      console.log('exceptList: ', _exceptList )
       pool.query({
         text: `SELECT id FROM users
               WHERE id <> ALL($1::int[])
               ORDER BY RANDOM()
               LIMIT 6`,
-        values: [exceptList.split(',')]
+        values: [_exceptList]
       })
       .then(res => {
         console.log('got random users: ')
         console.log(res.rows.map(id => id = id.id))
         socket.emit('getRandomUsersRes', res.rows.map(id => id = id.id))
       })
-      // .catch(err => console.log(`Error in getRandomUsers: ${err}`))
+      .catch(err => console.log(`Error in getRandomUsers: ${err}`))
     })
 
     socket.on('getPostsForUser', _id => {
@@ -354,12 +390,14 @@ io.on('connection', (socket) => {
       })
       .then(res => {
         console.log(res.rows)
-        socket.emit('getPostsForUserRes', res.rows)
+        socket.emit(`getPostsForUser${_id}Res`, res.rows)
       })
-      .catch(err => console.log(err))
+      .catch(err => console.log('Error in getPostsForUser: ', err))
     })
 
     socket.on('newPost', post => {
+      console.log('New post: ')
+      console.log(post)
       pool.query({
         text: 'SELECT * FROM users WHERE id = $1 AND is_banned = TRUE',
         values: [post.author]
@@ -374,16 +412,69 @@ io.on('connection', (socket) => {
 
       pool.query({
         text: `INSERT INTO post(author_id, owner_id, post_text, time_posted)
-              VALUES ($1,$2,$3,CURRENT_TIMESTAMP)`,
+              VALUES ($1,$2,$3,CURRENT_TIMESTAMP) RETURNING id`,
         values: [post.author, post.owner, post.text]
       })
-      .then(() => {
-        socket.emit('newPostSuccess')
+      .then((postID) => {
+
+        const name = postID.rows[0].id + '_' + post.imageName
+        console.log('New post name: ', name)
+        fs.rename(__dirname + '/tmp/' + post.imageName, __dirname + '/images/posts/' + name, err => {
+          if (err && err.code === 'ENOENT') {
+            console.log('Generating thumbnail: ', post.author, name)
+            pool.query({
+              text: `UPDATE post SET post_image = '../lib/img/default_post.png' WHERE id = $1`,
+              values: [postID.rows[0].id]
+            })
+            .then(() => {
+              socket.emit('newPostSuccess')
+              return
+            })
+            .catch(err => {
+              console.log('Error while adding image address to DB: ', err)
+              socket.emit('newPostFail')
+              return
+            })
+          } else if (err) {
+            console.log('Error while moving post image')
+          }
+        })
+        const imageAddress = post.imageURL + name
+        pool.query({
+          text: `UPDATE post SET post_image = $1 WHERE id = $2`,
+          values: [imageAddress, postID.rows[0].id]
+        })
+        .then(() => {
+          socket.emit('newPostSuccess')
+        })
+        .catch(err => {
+          console.log('Error while adding image address to DB: ', err)
+          socket.emit('newPostFail')
+        })
       })
       .catch(err => {
-        console.log(err)
+        console.log('Error while saving new post to DB: ', err)
         socket.emit('newPostFail')
       })
+
+    
+    })
+
+    socket.on('saveAvatar', (args) => {
+
+      const name = args.URL.split('/').pop()
+      fs.rename(__dirname + '/tmp/' + name, __dirname + '/images/avatars/' + name, err => {
+        err  
+          ? console.log('Error while saving new avatar: ', err)
+          : pool.query({
+              text: `UPDATE users SET avatar = $1 WHERE id = $2`,
+              values: [args.URL, args.UUID]
+            })
+            .then(() => {
+              socket.emit('saveAvatarSuccess')
+            })
+            .catch(err => console.log('Error while adding new avatar URL to DB'))
+        })      
     })
 })
 

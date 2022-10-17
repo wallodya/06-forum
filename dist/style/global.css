@@ -149,7 +149,12 @@
     gap: 1em;
 }
 [class*="container-grid-auto-columns"] {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 0.5fr));
+    grid-auto-rows: 1fr;
+}
+
+[class*="container-grid-auto-columns"] > * {
+    /* height: 100%; */
 }
 
 
@@ -157,7 +162,9 @@
     border-radius: 50%;
 }
 
-
+.border-accent {
+    border: 2px solid var(--clr-secondary-accent-60);
+}
 
 [class*="card"] {
     box-shadow: 0 0 2px var(--clr-primary-60);
@@ -179,6 +186,10 @@
 }
 [class*="margin-top-m"] {
     margin-top: calc(var(--header-height)/2);
+}
+
+.loading {
+    background-color: red;
 }
 
 * {

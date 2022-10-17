@@ -17,6 +17,15 @@
     margin-top: 1em;
 }
 
+/* Messages */
+
+.wrong-input-message {
+    display: none;
+    overflow: hidden;
+}
+
+
+
 /* Input interactions */
 
 .input-field:focus {
