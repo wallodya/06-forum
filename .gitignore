@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 post_image_gen.js
+images
 
 # Editor directories and files
 .vscode/*
