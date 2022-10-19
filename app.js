@@ -301,10 +301,25 @@ io.on('connection', (socket) => {
     })
 
     socket.on(`changeProfileData`, (newData) => {
-        console.log(`Changed profile data:
-                    New name: ${newData.newName}
-                    New e-mail: ${newData.newEmail}`)
-        socket.emit(`profileDataChangedForUser${newData.userId}`, 'Your data changed!!!')
+        console.log('Change date request')
+        pool.query({
+          text: `UPDATE users
+                 SET
+                 user_name = $1,
+                 email = $2
+                 WHERE id = $3`,
+          values: [newData.newName, newData.newEmail, newData.UUID]
+        })
+        .then(() => {
+          console.log(`Changed profile data:
+          New name: ${newData.newName}
+          New e-mail: ${newData.newEmail}`)
+          socket.emit(`changeProfileDataSuccess`, newData.newName, newData.newEmail)
+        })
+        .catch(err => {
+          console.log(err)
+          socket.emit('changeProfileDataFail')
+        })
     })
 
     socket.on('ban', _userId => {
@@ -380,7 +395,7 @@ io.on('connection', (socket) => {
     socket.on('getPostsForUser', _id => {
       console.log('Request for posts. User: ', _id)
       pool.query({
-        text: `SELECT author_id, user_login, is_admin, post_text, post_image, time_posted
+        text: `SELECT post.id AS id, author_id, user_login, is_admin, post_text, post_image, time_posted
               FROM post
               INNER JOIN
               users ON(post.author_id = users.id)
@@ -389,7 +404,7 @@ io.on('connection', (socket) => {
         values: [_id]
       })
       .then(res => {
-        console.log(res.rows)
+        // console.log(res.rows)
         socket.emit(`getPostsForUser${_id}Res`, res.rows)
       })
       .catch(err => console.log('Error in getPostsForUser: ', err))
@@ -460,6 +475,20 @@ io.on('connection', (socket) => {
     
     })
 
+    socket.on('deletePost', _id => {
+      pool.query({
+        text: `DELETE FROM post WHERE id = $1`,
+        values: [_id]
+      })
+      .then(() => {
+        socket.emit('deletePostSuccess')
+      })
+      .catch(err => {
+        console.log('Error while deleting post: ', err)
+        socket.emit('deletePostFail')
+      })
+    })
+
     socket.on('saveAvatar', (args) => {
 
       const name = args.URL.split('/').pop()
@@ -475,6 +504,27 @@ io.on('connection', (socket) => {
             })
             .catch(err => console.log('Error while adding new avatar URL to DB'))
         })      
+    })
+
+    socket.on('isValidLogin', _login => {
+      console.log('Testing login: ', _login)
+      pool.query({
+        text: `SELECT id FROM users WHERE user_login = $1`,
+        values: [_login]
+      })
+      .then(res => {
+        // res.rowCount
+        //   ? socket.emit('isValidLogin', res.rows[0].id)
+        //   : socket.emit('isNotValidLogin')
+        if (res.rowCount) {
+          console.log(_login + ' is valid login: ', res.rows[0].id)
+          socket.emit('isValidLogin', res.rows[0].id)
+        }
+      })
+      .catch(err => {
+        console.log('Error while testing login: ', err)
+        socket.emit('isNotValidLogin')
+      })
     })
 })
 
