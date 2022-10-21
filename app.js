@@ -506,7 +506,7 @@ io.on('connection', (socket) => {
         })      
     })
 
-    socket.on('isValidLogin', _login => {
+    socket.on('isValidLogin', (_login, _isPopState) => {
       console.log('Testing login: ', _login)
       pool.query({
         text: `SELECT id FROM users WHERE user_login = $1`,
@@ -518,7 +518,7 @@ io.on('connection', (socket) => {
         //   : socket.emit('isNotValidLogin')
         if (res.rowCount) {
           console.log(_login + ' is valid login: ', res.rows[0].id)
-          socket.emit('isValidLogin', res.rows[0].id)
+          socket.emit('isValidLogin', res.rows[0].id, _login, _isPopState)
         }
       })
       .catch(err => {

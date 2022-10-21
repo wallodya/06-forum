@@ -5946,3 +5946,3323 @@ user 78 is online
 UUID:  0
 UUID:  0
 UUID:  0
+Listening to 62.113.97.215:80
+UUID:  1
+User connected, socket id:  7zxCuXX-5L_uUvPCAAAB
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '75', '81', '56', '73', '79', '23' ]
+User 7zxCuXX-5L_uUvPCAAAB disconnected
+UUID:  1
+User connected, socket id:  D3kr_0U3b5kL0WlBAAAD
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+got random users: 
+[ '31', '73', '71', '14', '77', '78' ]
+Request for posts. User:  1
+User D3kr_0U3b5kL0WlBAAAD disconnected
+UUID:  0
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+UUID:  1
+User connected, socket id:  WSZCgAxZmWgYKk0gAAAI
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '70', '78', '71', '79', '75', '68' ]
+got random users: 
+[ '22', '14', '77', '70', '79', '56' ]
+got random users: 
+[ '71', '17', '78', '23', '77', '31' ]
+Request for posts. User:  66
+Sending friend list:  [ '1', '26', '12' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2008', user_id: '1', session_id: 'WSZCgAxZmWgYKk0gAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Ban user:  66
+user 66 banned/unbanned 
+Testing login:  wallodya
+wallodya is valid login:  1
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  _i_i__ii_i
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '22', '64', '80', '68', '75', '77' ]
+got random users: 
+[ '75', '64', '81', '56', '23', '57' ]
+got random users: 
+[ '31', '14', '64', '27', '73', '70' ]
+got random users: 
+[ '33', '17', '64', '77', '73', '22' ]
+got random users: 
+[ '56', '70', '57', '27', '17', '77' ]
+got random users: 
+[ '27', '80', '23', '75', '22', '79' ]
+got random users: 
+[ '33', '73', '79', '17', '70', '14' ]
+got random users: 
+[ '22', '71', '17', '57', '33', '31' ]
+got random users: 
+[ '57', '68', '23', '79', '73', '64' ]
+got random users: 
+[ '71', '78', '31', '33', '77', '23' ]
+got random users: 
+[ '75', '73', '22', '80', '79', '31' ]
+got random users: 
+[ '56', '78', '17', '14', '71', '80' ]
+got random users: 
+[ '31', '81', '33', '71', '80', '57' ]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '75', '77', '27', '79', '22', '64' ]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '23', '68', '73', '64', '80', '56' ]
+got random users: 
+[ '14', '22', '79', '68', '80', '56' ]
+got random users: 
+[ '81', '22', '70', '33', '75', '78' ]
+got random users: 
+[ '75', '23', '56', '77', '80', '31' ]
+got random users: 
+[ '27', '79', '70', '31', '75', '68' ]
+got random users: 
+[ '27', '64', '33', '68', '57', '77' ]
+got random users: 
+[ '77', '27', '56', '68', '17', '31' ]
+got random users: 
+[ '79', '64', '71', '81', '68', '17' ]
+got random users: 
+[ '68', '78', '27', '31', '71', '75' ]
+got random users: 
+[ '71', '77', '81', '73', '70', '56' ]
+got random users: 
+[ '75', '23', '77', '64', '79', '68' ]
+got random users: 
+[ '31', '81', '64', '79', '33', '78' ]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '22', '27', '68', '75', '33', '23' ]
+got random users: 
+[ '70', '17', '27', '71', '77', '64' ]
+got random users: 
+[ '73', '17', '64', '22', '77', '80' ]
+got random users: 
+[ '23', '64', '57', '68', '81', '79' ]
+got random users: 
+[ '73', '22', '78', '14', '80', '81' ]
+got random users: 
+[ '31', '14', '81', '79', '71', '33' ]
+got random users: 
+[ '70', '80', '31', '17', '73', '56' ]
+got random users: 
+[ '79', '81', '23', '22', '78', '71' ]
+got random users: 
+[ '27', '79', '64', '17', '73', '14' ]
+got random users: 
+[ '71', '70', '14', '31', '57', '68' ]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '68', '80', '73', '71', '78', '57' ]
+got random users: 
+[ '68', '79', '80', '75', '77', '56' ]
+got random users: 
+[ '27', '80', '78', '31', '75', '23' ]
+got random users: 
+[ '71', '79', '14', '31', '33', '23' ]
+got random users: 
+[ '17', '77', '22', '80', '31', '14' ]
+got random users: 
+[ '68', '70', '22', '77', '71', '78' ]
+got random users: 
+[ '56', '33', '14', '71', '79', '73' ]
+got random users: 
+[ '80', '68', '27', '81', '79', '14' ]
+got random users: 
+[ '31', '78', '23', '56', '81', '79' ]
+got random users: 
+[ '75', '78', '81', '56', '77', '27' ]
+got random users: 
+[ '57', '31', '73', '81', '56', '68' ]
+got random users: 
+[ '57', '22', '56', '27', '78', '71' ]
+got random users: 
+[ '31', '79', '27', '68', '14', '23' ]
+got random users: 
+[ '33', '77', '17', '23', '31', '80' ]
+got random users: 
+[ '70', '56', '17', '22', '73', '64' ]
+got random users: 
+[ '81', '14', '73', '80', '64', '79' ]
+User WSZCgAxZmWgYKk0gAAAI disconnected
+UUID:  0
+UUID:  0
+UUID:  0
+UUID:  0
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+UUID:  1
+User connected, socket id:  vxd5Iv0OSGXRprMSAAAS
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '68', '75', '57', '77', '27', '79' ]
+Request for posts. User:  74
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2009', user_id: '1', session_id: 'vxd5Iv0OSGXRprMSAAAS' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '14', '27', '79', '57', '80', '17' ]
+Request for posts. User:  14
+Sending friend list:  []
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '27', '64', '22', '23', '73', '80' ]
+Request for posts. User:  74
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2009', user_id: '1', session_id: 'vxd5Iv0OSGXRprMSAAAS' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Ban user:  74
+user 74 banned/unbanned 
+Testing login:  wallodya
+wallodya is valid login:  1
+Testing login:  llll
+Testing login:  wallodya
+Testing login:  testab
+Testing login:  wallodya
+Testing login:  llll
+llll is valid login:  74
+wallodya is valid login:  1
+testab is valid login:  14
+wallodya is valid login:  1
+llll is valid login:  74
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '64', '68', '22', '78', '77', '17' ]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '56', '64', '79', '78', '17', '77' ]
+got random users: 
+[ '71', '27', '81', '77', '64', '31' ]
+got random users: 
+[ '77', '81', '14', '22', '73', '79' ]
+got random users: 
+[ '17', '70', '27', '23', '64', '22' ]
+got random users: 
+[ '78', '22', '27', '75', '80', '14' ]
+got random users: 
+[ '22', '70', '27', '31', '77', '71' ]
+got random users: 
+[ '68', '80', '17', '56', '22', '31' ]
+got random users: 
+[ '57', '79', '64', '70', '56', '14' ]
+got random users: 
+[ '68', '31', '17', '73', '75', '79' ]
+got random users: 
+[ '70', '81', '33', '27', '79', '31' ]
+got random users: 
+[ '56', '33', '75', '80', '31', '77' ]
+got random users: 
+[ '27', '75', '79', '23', '57', '78' ]
+got random users: 
+[ '73', '79', '64', '77', '71', '80' ]
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '56', '77', '31', '80', '22', '75' ]
+Testing login:  llll
+llll is valid login:  74
+Request for posts. User:  74
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2009', user_id: '1', session_id: 'vxd5Iv0OSGXRprMSAAAS' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '33', '81', '57', '68', '80', '22' ]
+Testing login:  testab
+testab is valid login:  14
+Request for posts. User:  14
+Sending friend list:  []
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '33', '56', '73', '23', '57', '14' ]
+Testing login:  testab
+testab is valid login:  14
+Request for posts. User:  14
+Sending friend list:  []
+Ban user:  14
+user 14 banned/unbanned 
+Testing login:  wallodya
+wallodya is valid login:  1
+Testing login:  llll
+Testing login:  wallodya
+Testing login:  testab
+Testing login:  wallodya
+Testing login:  llll
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+llll is valid login:  74
+wallodya is valid login:  1
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  wallodya
+Testing login:  llll
+Testing login:  wallodya
+Testing login:  testab
+Testing login:  wallodya
+Testing login:  testab
+wallodya is valid login:  1
+wallodya is valid login:  1
+testab is valid login:  14
+wallodya is valid login:  1
+llll is valid login:  74
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+wallodya is valid login:  1
+llll is valid login:  74
+wallodya is valid login:  1
+testab is valid login:  14
+wallodya is valid login:  1
+testab is valid login:  14
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+got random users: 
+[ '77', '31', '57', '56', '64', '73' ]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '68', '33', '70', '22', '14', '17' ]
+got random users: 
+[ '68', '22', '27', '81', '33', '23' ]
+got random users: 
+[ '80', '22', '78', '81', '77', '70' ]
+got random users: 
+[ '23', '80', '33', '57', '79', '22' ]
+got random users: 
+[ '27', '77', '73', '57', '56', '64' ]
+got random users: 
+[ '81', '27', '31', '17', '33', '80' ]
+got random users: 
+[ '56', '80', '22', '79', '68', '31' ]
+got random users: 
+[ '70', '31', '23', '78', '81', '57' ]
+got random users: 
+[ '81', '23', '71', '70', '73', '22' ]
+got random users: 
+[ '27', '70', '14', '71', '77', '68' ]
+got random users: 
+[ '75', '31', '14', '64', '70', '78' ]
+got random users: 
+[ '80', '79', '78', '17', '70', '71' ]
+got random users: 
+[ '71', '23', '78', '56', '77', '70' ]
+got random users: 
+[ '33', '64', '14', '73', '75', '22' ]
+got random users: 
+[ '22', '81', '78', '14', '80', '17' ]
+got random users: 
+[ '17', '70', '23', '81', '22', '80' ]
+got random users: 
+[ '22', '31', '73', '64', '23', '71' ]
+got random users: 
+[ '77', '80', '73', '31', '57', '14' ]
+got random users: 
+[ '75', '22', '80', '71', '31', '73' ]
+got random users: 
+[ '68', '14', '78', '70', '77', '57' ]
+got random users: 
+[ '81', '14', '79', '23', '33', '71' ]
+got random users: 
+[ '81', '64', '77', '56', '71', '57' ]
+got random users: 
+[ '31', '78', '80', '81', '22', '70' ]
+got random users: 
+[ '70', '27', '22', '57', '75', '31' ]
+got random users: 
+[ '57', '27', '68', '33', '23', '80' ]
+Request for posts. User:  26
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2009', user_id: '1', session_id: 'vxd5Iv0OSGXRprMSAAAS' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '78', '79', '27', '70', '75', '57' ]
+Request for posts. User:  57
+Sending friend list:  []
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '22', '77', '71', '78', '57', '31' ]
+Request for posts. User:  57
+Sending friend list:  []
+User vxd5Iv0OSGXRprMSAAAS disconnected
+UUID:  1
+User connected, socket id:  KaF5ICOlrvHmrqjmAAAU
+User KaF5ICOlrvHmrqjmAAAU disconnected
+UUID:  1
+User connected, socket id:  VHzMS1_FDnteWWW4AAAW
+User VHzMS1_FDnteWWW4AAAW disconnected
+UUID:  1
+User connected, socket id:  _LuERAH8hVf3r-4SAAAY
+Request for posts. User:  57
+Sending friend list:  []
+User _LuERAH8hVf3r-4SAAAY disconnected
+UUID:  0
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+UUID:  1
+User connected, socket id:  BlM-PYdp1FymUaPRAAAd
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '73', '75', '56', '17', '68', '22' ]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '80', '77', '68', '73', '64', '23' ]
+got random users: 
+[ '17', '22', '27', '68', '64', '79' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2013', user_id: '1', session_id: 'BlM-PYdp1FymUaPRAAAd' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '73', '14', '22', '70', '17', '71' ]
+Request for posts. User:  83
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2013', user_id: '1', session_id: 'BlM-PYdp1FymUaPRAAAd' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '75', '64', '27', '14', '56', '81' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2013', user_id: '1', session_id: 'BlM-PYdp1FymUaPRAAAd' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '27', '64', '14', '70', '73', '22' ]
+Request for posts. User:  26
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2013', user_id: '1', session_id: 'BlM-PYdp1FymUaPRAAAd' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '56', '73', '81', '33', '22', '75' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2013', user_id: '1', session_id: 'BlM-PYdp1FymUaPRAAAd' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '57', '80', '71', '33', '14', '81' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2013', user_id: '1', session_id: 'BlM-PYdp1FymUaPRAAAd' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+got random users: 
+[ '17', '71', '80', '56', '14', '75' ]
+Request for posts. User:  1
+User BlM-PYdp1FymUaPRAAAd disconnected
+UUID:  1
+User connected, socket id:  MjnlAoyUQAHSn3wCAAAf
+Testing login:  wallodya
+wallodya is valid login:  1
+User MjnlAoyUQAHSn3wCAAAf disconnected
+UUID:  1
+User connected, socket id:  qFPPPhiMI9p_AZ27AAAh
+Testing login:  wallodya
+wallodya is valid login:  1
+User qFPPPhiMI9p_AZ27AAAh disconnected
+UUID:  1
+User connected, socket id:  TGfYuJJptOdwOEkFAAAj
+Testing login:  wallodya
+wallodya is valid login:  1
+User TGfYuJJptOdwOEkFAAAj disconnected
+UUID:  1
+User connected, socket id:  kS2uQerk5OKqsI3vAAAl
+Testing login:  wallodya
+wallodya is valid login:  1
+User kS2uQerk5OKqsI3vAAAl disconnected
+UUID:  0
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+UUID:  1
+User connected, socket id:  YDNHBCcwe86-hqr1AAAq
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '57', '81', '68', '79', '22', '27' ]
+got random users: 
+[ '70', '81', '75', '68', '73', '57' ]
+got random users: 
+[ '71', '17', '57', '27', '77', '33' ]
+Request for posts. User:  16
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2018', user_id: '1', session_id: 'YDNHBCcwe86-hqr1AAAq' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+got random users: 
+[ '77', '79', '78', '73', '57', '17' ]
+Request for posts. User:  1
+User YDNHBCcwe86-hqr1AAAq disconnected
+UUID:  1
+User connected, socket id:  vXoerNWIOBzH62tSAAAs
+Testing login:  wallodya
+wallodya is valid login:  1
+User vXoerNWIOBzH62tSAAAs disconnected
+UUID:  1
+User connected, socket id:  Uwl8opdUbV6BMJNGAAAu
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '78', '71', '17', '81', '14', '23' ]
+User Uwl8opdUbV6BMJNGAAAu disconnected
+UUID:  1
+User connected, socket id:  8G9jjK64HH__91bZAAAw
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '27', '14', '31', '78', '23', '17' ]
+User 8G9jjK64HH__91bZAAAw disconnected
+UUID:  0
+UUID:  0
+Testing login:  wallodya
+wallodya is valid login:  1
+Request for posts. User:  1
+UUID:  0
+Testing login:  wallodya
+wallodya is valid login:  1
+Request for posts. User:  1
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+UUID:  0
+Testing login:  wallodya
+wallodya is valid login:  1
+Request for posts. User:  1
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+UUID:  1
+User connected, socket id:  gGTCUbwSv3qKuJgYAAA6
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '70', '68', '77', '17', '75', '64' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2022', user_id: '1', session_id: 'gGTCUbwSv3qKuJgYAAA6' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  81
+Sending friend list:  [ '62' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2022', user_id: '1', session_id: 'gGTCUbwSv3qKuJgYAAA6' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '71', '73', '17', '23', '57', '78' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2022', user_id: '1', session_id: 'gGTCUbwSv3qKuJgYAAA6' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  81
+Sending friend list:  [ '62' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2022', user_id: '1', session_id: 'gGTCUbwSv3qKuJgYAAA6' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  81
+Sending friend list:  [ '62' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2022', user_id: '1', session_id: 'gGTCUbwSv3qKuJgYAAA6' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  81
+Sending friend list:  [ '62' ]
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2022', user_id: '1', session_id: 'gGTCUbwSv3qKuJgYAAA6' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User gGTCUbwSv3qKuJgYAAA6 disconnected
+UUID:  1
+User connected, socket id:  d_7yCrWO3DoUKA2tAAA9
+UUID:  1
+User connected, socket id:  eQ0pMA3zB8QykNmvAAA-
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2023', user_id: '1', session_id: 'd_7yCrWO3DoUKA2tAAA9' },
+  { id: '2024', user_id: '1', session_id: 'eQ0pMA3zB8QykNmvAAA-' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User eQ0pMA3zB8QykNmvAAA- disconnected
+User d_7yCrWO3DoUKA2tAAA9 disconnected
+UUID:  1
+User connected, socket id:  bvQakJWyCrzrB88mAABA
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2025', user_id: '1', session_id: 'bvQakJWyCrzrB88mAABA' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User bvQakJWyCrzrB88mAABA disconnected
+UUID:  1
+User connected, socket id:  mxmIsGhPeFByeqaoAABC
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '17', '14', '71', '81', '73', '70' ]
+Request for posts. User:  74
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2026', user_id: '1', session_id: 'mxmIsGhPeFByeqaoAABC' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2026', user_id: '1', session_id: 'mxmIsGhPeFByeqaoAABC' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  22
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2026', user_id: '1', session_id: 'mxmIsGhPeFByeqaoAABC' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  16
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2026', user_id: '1', session_id: 'mxmIsGhPeFByeqaoAABC' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2026', user_id: '1', session_id: 'mxmIsGhPeFByeqaoAABC' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  80
+Sending friend list:  [ '79', '62' ]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2026', user_id: '1', session_id: 'mxmIsGhPeFByeqaoAABC' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User mxmIsGhPeFByeqaoAABC disconnected
+UUID:  1
+User connected, socket id:  f9QvlbE4twBewCviAABE
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2027', user_id: '1', session_id: 'f9QvlbE4twBewCviAABE' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2027', user_id: '1', session_id: 'f9QvlbE4twBewCviAABE' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  nnnn
+nnnn is valid login:  77
+Request for posts. User:  77
+Sending friend list:  [ '12' ]
+Testing login:  testa
+testa is valid login:  12
+Testing login:  testa
+testa is valid login:  12
+Testing login:  testa
+testa is valid login:  12
+Testing login:  testa
+testa is valid login:  12
+Testing login:  testa
+testa is valid login:  12
+Testing login:  nnnn
+nnnn is valid login:  77
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2027', user_id: '1', session_id: 'f9QvlbE4twBewCviAABE' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2027', user_id: '1', session_id: 'f9QvlbE4twBewCviAABE' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2027', user_id: '1', session_id: 'f9QvlbE4twBewCviAABE' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  pppp
+pppp is valid login:  79
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2027', user_id: '1', session_id: 'f9QvlbE4twBewCviAABE' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User f9QvlbE4twBewCviAABE disconnected
+UUID:  1
+User connected, socket id:  6Gl4WqIJQmDkVtMmAABG
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2028', user_id: '1', session_id: '6Gl4WqIJQmDkVtMmAABG' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  jjjj
+jjjj is valid login:  68
+Request for posts. User:  68
+Sending friend list:  [ '12' ]
+Testing login:  testa
+testa is valid login:  12
+User 6Gl4WqIJQmDkVtMmAABG disconnected
+UUID:  1
+User connected, socket id:  g23orTD7wtjRUnczAABI
+Testing login:  testa
+testa is valid login:  12
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2029', user_id: '1', session_id: 'g23orTD7wtjRUnczAABI' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User g23orTD7wtjRUnczAABI disconnected
+UUID:  1
+User connected, socket id:  vvIk5hhDfdAQ8dt0AABK
+Testing login:  testa
+testa is valid login:  12
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2030', user_id: '1', session_id: 'vvIk5hhDfdAQ8dt0AABK' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  nnnn
+nnnn is valid login:  77
+Testing login:  newtest
+newtest is valid login:  26
+User vvIk5hhDfdAQ8dt0AABK disconnected
+UUID:  1
+User connected, socket id:  I2a7Yen2r0KoRcA-AABM
+Testing login:  testa
+testa is valid login:  12
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2031', user_id: '1', session_id: 'I2a7Yen2r0KoRcA-AABM' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2031', user_id: '1', session_id: 'I2a7Yen2r0KoRcA-AABM' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  jjjj
+jjjj is valid login:  68
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2031', user_id: '1', session_id: 'I2a7Yen2r0KoRcA-AABM' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2031', user_id: '1', session_id: 'I2a7Yen2r0KoRcA-AABM' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User I2a7Yen2r0KoRcA-AABM disconnected
+UUID:  0
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+Sending friend list:  [
+  '74', '62', '66',
+  '16', '83', '69',
+  '26', '25', '12'
+]
+UUID:  1
+User connected, socket id:  HceZ8MbSzStQIxslAABR
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '27', '14', '77', '80', '73', '79' ]
+got random users: 
+[ '71', '78', '57', '75', '77', '73' ]
+got random users: 
+[ '22', '14', '70', '71', '77', '81' ]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2032', user_id: '1', session_id: 'HceZ8MbSzStQIxslAABR' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User HceZ8MbSzStQIxslAABR disconnected
+UUID:  1
+User connected, socket id:  7vd1arKtDUN4r-pzAABT
+Request for posts. User:  73
+Sending friend list:  []
+Deleting user:  73
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2033', user_id: '1', session_id: '7vd1arKtDUN4r-pzAABT' }
+]
+Testing login:  eeee
+eeee is valid login:  31
+Request for posts. User:  31
+Sending friend list:  []
+Request for posts. User:  73
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2033', user_id: '1', session_id: '7vd1arKtDUN4r-pzAABT' }
+]
+Testing login:  eeee
+eeee is valid login:  31
+Testing login:  eeee
+eeee is valid login:  31
+User 7vd1arKtDUN4r-pzAABT disconnected
+UUID:  1
+User connected, socket id:  PB63kAitTiy5fIn0AABV
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2034', user_id: '1', session_id: 'PB63kAitTiy5fIn0AABV' }
+]
+Testing login:  testabcd
+testabcd is valid login:  16
+Request for posts. User:  16
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2034', user_id: '1', session_id: 'PB63kAitTiy5fIn0AABV' }
+]
+Testing login:  wallodya
+wallodya is valid login:  1
+Testing login:  wallodya
+wallodya is valid login:  1
+Testing login:  wallodya
+wallodya is valid login:  1
+Testing login:  wallodya
+wallodya is valid login:  1
+User PB63kAitTiy5fIn0AABV disconnected
+UUID:  1
+User connected, socket id:  uoD4HG7IH4V6gQZmAABX
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2035', user_id: '1', session_id: 'uoD4HG7IH4V6gQZmAABX' }
+]
+Testing login:  eeee
+eeee is valid login:  31
+Request for posts. User:  31
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2035', user_id: '1', session_id: 'uoD4HG7IH4V6gQZmAABX' }
+]
+Testing login:  testtest
+testtest is valid login:  70
+Testing login:  mmmm
+mmmm is valid login:  75
+User uoD4HG7IH4V6gQZmAABX disconnected
+UUID:  1
+User connected, socket id:  WLEWJSje9vD3WTWuAABZ
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2036', user_id: '1', session_id: 'WLEWJSje9vD3WTWuAABZ' }
+]
+Testing login:  testtest
+testtest is valid login:  70
+Request for posts. User:  70
+Sending friend list:  [ '79', '69' ]
+Testing login:  pppp
+pppp is valid login:  79
+Request for posts. User:  79
+Sending friend list:  [ '70', '62', '80' ]
+Testing login:  qqqq
+qqqq is valid login:  80
+Request for posts. User:  80
+Sending friend list:  [ '79', '62' ]
+Testing login:  hello
+hello is valid login:  62
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2036', user_id: '1', session_id: 'WLEWJSje9vD3WTWuAABZ' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2036', user_id: '1', session_id: 'WLEWJSje9vD3WTWuAABZ' }
+]
+User WLEWJSje9vD3WTWuAABZ disconnected
+UUID:  1
+User connected, socket id:  F5M7jZOUxRF5A-urAABb
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2037', user_id: '1', session_id: 'F5M7jZOUxRF5A-urAABb' }
+]
+Testing login:  eeee
+eeee is valid login:  31
+Request for posts. User:  31
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2037', user_id: '1', session_id: 'F5M7jZOUxRF5A-urAABb' }
+]
+Testing login:  rrrr
+rrrr is valid login:  81
+Request for posts. User:  81
+Sending friend list:  [ '62' ]
+Testing login:  hello
+hello is valid login:  62
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2037', user_id: '1', session_id: 'F5M7jZOUxRF5A-urAABb' }
+]
+Testing login:  qqqq
+qqqq is valid login:  80
+Request for posts. User:  80
+Sending friend list:  [ '79', '62' ]
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '27', '23', '79', '33', '22', '64' ]
+Testing login:  gggg
+gggg is valid login:  64
+Request for posts. User:  64
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2037', user_id: '1', session_id: 'F5M7jZOUxRF5A-urAABb' }
+]
+Testing login:  testab
+testab is valid login:  14
+Request for posts. User:  14
+Sending friend list:  []
+Request for posts. User:  73
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '79', '78', '71', '14', '75', '81' ]
+Testing login:  testab
+testab is valid login:  14
+Request for posts. User:  14
+Sending friend list:  []
+Request for posts. User:  73
+Request for posts. User:  73
+User F5M7jZOUxRF5A-urAABb disconnected
+UUID:  1
+User connected, socket id:  xJimTVabjgWFYji6AABd
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2038', user_id: '1', session_id: 'xJimTVabjgWFYji6AABd' }
+]
+Testing login:  gggg
+gggg is valid login:  64
+Request for posts. User:  64
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2038', user_id: '1', session_id: 'xJimTVabjgWFYji6AABd' }
+]
+User xJimTVabjgWFYji6AABd disconnected
+UUID:  1
+User connected, socket id:  Mnakz6b1Xd6HZMxMAABf
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2039', user_id: '1', session_id: 'Mnakz6b1Xd6HZMxMAABf' }
+]
+User Mnakz6b1Xd6HZMxMAABf disconnected
+UUID:  1
+User connected, socket id:  DfmIj5UzmX1n-t0SAABh
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2040', user_id: '1', session_id: 'DfmIj5UzmX1n-t0SAABh' }
+]
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '68', '64', '57', '23', '71', '70' ]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2040', user_id: '1', session_id: 'DfmIj5UzmX1n-t0SAABh' }
+]
+User DfmIj5UzmX1n-t0SAABh disconnected
+UUID:  1
+User connected, socket id:  1JFA7qSeHM49j_IFAABj
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2041', user_id: '1', session_id: '1JFA7qSeHM49j_IFAABj' }
+]
+Testing login:  nnnn
+nnnn is valid login:  77
+Request for posts. User:  77
+Sending friend list:  [ '12' ]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2041', user_id: '1', session_id: '1JFA7qSeHM49j_IFAABj' }
+]
+User 1JFA7qSeHM49j_IFAABj disconnected
+UUID:  1
+User connected, socket id:  _04DPBX6slqbvutYAABl
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' },
+  { id: '2042', user_id: '1', session_id: '_04DPBX6slqbvutYAABl' }
+]
+User _04DPBX6slqbvutYAABl disconnected
+UUID:  1
+User connected, socket id:  b8NpVpIDupeOXtHRAABn
+Request for every users data
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  nnnn
+nnnn is valid login:  77
+Request for posts. User:  77
+Sending friend list:  [ '12' ]
+Request for every users data
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  testabcd
+testabcd is valid login:  16
+Request for posts. User:  16
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '77', '56', '64', '75', '31', '70' ]
+Request for every users data
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  nnnn
+nnnn is valid login:  77
+Request for posts. User:  77
+Sending friend list:  [ '12' ]
+Testing login:  testa
+testa is valid login:  12
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '2043', user_id: '1', session_id: 'b8NpVpIDupeOXtHRAABn' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  testtest
+testtest is valid login:  70
+Request for posts. User:  70
+Sending friend list:  [ '79', '69' ]
+User b8NpVpIDupeOXtHRAABn disconnected
+UUID:  1
+User connected, socket id:  yemzdbHF0pO8lrluAABp
+Request for every users data
+user 1 is online
+[
+  { id: '2044', user_id: '1', session_id: 'yemzdbHF0pO8lrluAABp' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  eeee
+eeee is valid login:  31
+Request for posts. User:  31
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '2044', user_id: '1', session_id: 'yemzdbHF0pO8lrluAABp' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  testabcd
+testabcd is valid login:  16
+Request for posts. User:  16
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '2044', user_id: '1', session_id: 'yemzdbHF0pO8lrluAABp' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '80', '81', '33', '78', '22', '23' ]
+Testing login:  newtest
+newtest is valid login:  26
+Request for posts. User:  26
+Sending friend list:  [ '12', '66', '1', '71' ]
+user 1 is online
+[
+  { id: '2044', user_id: '1', session_id: 'yemzdbHF0pO8lrluAABp' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  testa
+testa is valid login:  12
+Request for posts. User:  12
+Sending friend list:  [ '26', '68', '77', '66', '1' ]
+user 1 is online
+[
+  { id: '2044', user_id: '1', session_id: 'yemzdbHF0pO8lrluAABp' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '71', '64', '57', '17', '77', '81' ]
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+Testing login:  _i_i__ii_i
+User yemzdbHF0pO8lrluAABp disconnected
+UUID:  1
+User connected, socket id:  HNbsZirHRI6A-yMvAABr
+Request for every users data
+user 1 is online
+[
+  { id: '2045', user_id: '1', session_id: 'HNbsZirHRI6A-yMvAABr' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  _i_i__ii_i
+Testing login:  user
+Testing login:  kkkk
+kkkk is valid login:  69
+Request for posts. User:  69
+Sending friend list:  [ '1', '70' ]
+user 1 is online
+[
+  { id: '2045', user_id: '1', session_id: 'HNbsZirHRI6A-yMvAABr' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '2045', user_id: '1', session_id: 'HNbsZirHRI6A-yMvAABr' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '2045', user_id: '1', session_id: 'HNbsZirHRI6A-yMvAABr' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User HNbsZirHRI6A-yMvAABr disconnected
+UUID:  1
+User connected, socket id:  QBsWKihNpbt4hGmeAABt
+Request for every users data
+user 1 is online
+[
+  { id: '2046', user_id: '1', session_id: 'QBsWKihNpbt4hGmeAABt' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  user
+Testing login:  newacc
+Request for every users data
+user 1 is online
+[
+  { id: '2046', user_id: '1', session_id: 'QBsWKihNpbt4hGmeAABt' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  qqqq
+qqqq is valid login:  80
+Request for posts. User:  80
+Sending friend list:  [ '79', '62' ]
+Request for every users data
+user 1 is online
+[
+  { id: '2046', user_id: '1', session_id: 'QBsWKihNpbt4hGmeAABt' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  aaaa
+Testing login:  _i_i__ii_i
+Testing login:  newacc
+Testing login:  aaaa
+Testing login:  aaaa
+Testing login:  newacc
+Testing login:  _i_i__ii_i
+User QBsWKihNpbt4hGmeAABt disconnected
+UUID:  1
+User connected, socket id:  3C0T9Aesk1S0_iL6AABv
+Request for every users data
+user 1 is online
+[
+  { id: '2047', user_id: '1', session_id: '3C0T9Aesk1S0_iL6AABv' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  newacc
+Testing login:  _i_i__ii_i
+Request for every users data
+user 1 is online
+[
+  { id: '2047', user_id: '1', session_id: '3C0T9Aesk1S0_iL6AABv' },
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User 3C0T9Aesk1S0_iL6AABv disconnected
+UUID:  1
+User connected, socket id:  oV32AoC_Dc1An438AABx
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '2048', user_id: '1', session_id: 'oV32AoC_Dc1An438AABx' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '2048', user_id: '1', session_id: 'oV32AoC_Dc1An438AABx' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  _i_i__ii_i
+User oV32AoC_Dc1An438AABx disconnected
+UUID:  1
+User connected, socket id:  R8z4TJUwPNlB12-aAABz
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '2049', user_id: '1', session_id: 'R8z4TJUwPNlB12-aAABz' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  _i_i__ii_i
+User R8z4TJUwPNlB12-aAABz disconnected
+UUID:  1
+User connected, socket id:  zXzruQ7yNCMK6kCJAAB1
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '2050', user_id: '1', session_id: 'zXzruQ7yNCMK6kCJAAB1' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  _i_i__ii_i
+User zXzruQ7yNCMK6kCJAAB1 disconnected
+UUID:  1
+User connected, socket id:  oBqePDZ3QzARnmOEAAB3
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '2051', user_id: '1', session_id: 'oBqePDZ3QzARnmOEAAB3' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  user
+User oBqePDZ3QzARnmOEAAB3 disconnected
+UUID:  1
+User connected, socket id:  I0WT-s0GnYURlP_DAAB5
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '2052', user_id: '1', session_id: 'I0WT-s0GnYURlP_DAAB5' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User I0WT-s0GnYURlP_DAAB5 disconnected
+UUID:  1
+User connected, socket id:  KJjgQbEMDJ-gaEz2AAB7
+User KJjgQbEMDJ-gaEz2AAB7 disconnected
+UUID:  1
+User connected, socket id:  tHWLOxze5GfZugz6AAB9
+User tHWLOxze5GfZugz6AAB9 disconnected
+UUID:  1
+User connected, socket id:  qQnEmf2Qdn3aaFjNAAB_
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2055', user_id: '1', session_id: 'qQnEmf2Qdn3aaFjNAAB_' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User qQnEmf2Qdn3aaFjNAAB_ disconnected
+UUID:  1
+User connected, socket id:  46GagZPDEddoseq_AACB
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2056', user_id: '1', session_id: '46GagZPDEddoseq_AACB' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  vn11
+vn11 is valid login:  56
+Request for posts. User:  56
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2056', user_id: '1', session_id: '46GagZPDEddoseq_AACB' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  _i_i__ii_i12
+_i_i__ii_i12 is valid login:  66
+Request for posts. User:  66
+Sending friend list:  [ '1', '26', '12' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2056', user_id: '1', session_id: '46GagZPDEddoseq_AACB' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  wallodya
+wallodya is valid login:  1
+exceptList:  [
+  '1',  '74', '62',
+  '66', '16', '83',
+  '69', '26', '25',
+  '12'
+]
+Request for posts. User:  1
+got random users: 
+[ '78', '79', '75', '56', '17', '57' ]
+Testing login:  newacc123
+newacc123 is valid login:  83
+Request for posts. User:  83
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2056', user_id: '1', session_id: '46GagZPDEddoseq_AACB' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2056', user_id: '1', session_id: '46GagZPDEddoseq_AACB' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2056', user_id: '1', session_id: '46GagZPDEddoseq_AACB' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2056', user_id: '1', session_id: '46GagZPDEddoseq_AACB' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User 46GagZPDEddoseq_AACB disconnected
+UUID:  1
+User connected, socket id:  vs9XAewuwdnz5E1mAACD
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2057', user_id: '1', session_id: 'vs9XAewuwdnz5E1mAACD' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User vs9XAewuwdnz5E1mAACD disconnected
+UUID:  1
+User connected, socket id:  DJpFHmg7WmQIpibuAACF
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2058', user_id: '1', session_id: 'DJpFHmg7WmQIpibuAACF' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  eeee
+eeee is valid login:  31
+Request for posts. User:  31
+User DJpFHmg7WmQIpibuAACF disconnected
+UUID:  1
+User connected, socket id:  l-A3LhXliY8HE-BVAACH
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2059', user_id: '1', session_id: 'l-A3LhXliY8HE-BVAACH' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  nnnn
+nnnn is valid login:  77
+Request for posts. User:  77
+User l-A3LhXliY8HE-BVAACH disconnected
+UUID:  1
+User connected, socket id:  dSuleTqFrzrFK21XAACJ
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2060', user_id: '1', session_id: 'dSuleTqFrzrFK21XAACJ' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  testabcd
+testabcd is valid login:  16
+Request for posts. User:  16
+Sending friend list:  [ '1' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2060', user_id: '1', session_id: 'dSuleTqFrzrFK21XAACJ' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2060', user_id: '1', session_id: 'dSuleTqFrzrFK21XAACJ' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User dSuleTqFrzrFK21XAACJ disconnected
+UUID:  1
+User connected, socket id:  jgBAQKrLid9vHqauAACL
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '2061', user_id: '1', session_id: 'jgBAQKrLid9vHqauAACL' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User jgBAQKrLid9vHqauAACL disconnected
+UUID:  1
+User connected, socket id:  bTOSi0gg0OK5bDPZAACN
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2062', user_id: '1', session_id: 'bTOSi0gg0OK5bDPZAACN' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  testtest
+testtest is valid login:  70
+Request for posts. User:  70
+Sending friend list:  [ '79', '69' ]
+User bTOSi0gg0OK5bDPZAACN disconnected
+UUID:  1
+User connected, socket id:  b5OYuCdEubahLbNRAACP
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2063', user_id: '1', session_id: 'b5OYuCdEubahLbNRAACP' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  eeee
+eeee is valid login:  31
+Request for posts. User:  31
+Sending friend list:  []
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2063', user_id: '1', session_id: 'b5OYuCdEubahLbNRAACP' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  qqqq
+qqqq is valid login:  80
+Request for posts. User:  80
+Sending friend list:  [ '79', '62' ]
+Testing login:  hello
+hello is valid login:  62
+Request for posts. User:  62
+Sending friend list:  [ '1', '79', '80', '81' ]
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2063', user_id: '1', session_id: 'b5OYuCdEubahLbNRAACP' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Testing login:  bruh
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2063', user_id: '1', session_id: 'b5OYuCdEubahLbNRAACP' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User b5OYuCdEubahLbNRAACP disconnected
+UUID:  1
+User connected, socket id:  DNSlQINcsiiMMmiLAACR
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2064', user_id: '1', session_id: 'DNSlQINcsiiMMmiLAACR' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+User DNSlQINcsiiMMmiLAACR disconnected
+UUID:  1
+User connected, socket id:  7I1ziZoc3cp_OWlxAACT
+Request for every users data
+user 1 is online
+[
+  { id: '1829', user_id: '1', session_id: 'Kd7BQJFgv3CekQscAAAh' },
+  { id: '1831', user_id: '1', session_id: 'MTWdZcXA8eTSexFnAAAD' },
+  { id: '1996', user_id: '1', session_id: 'As7HbNN39u9U1a0nAAEV' },
+  { id: '1837', user_id: '1', session_id: '2MVBEOmRNqGsQnoxAAAL' },
+  { id: '2001', user_id: '1', session_id: '4iRMBNdQc3rGwSmlAAAO' },
+  { id: '2004', user_id: '1', session_id: 'tpPHdH5fymDKLuHcAAAI' },
+  { id: '1849', user_id: '1', session_id: 'Oa-mlE8qpS3G0ef3AAAX' },
+  { id: '2065', user_id: '1', session_id: '7I1ziZoc3cp_OWlxAACT' },
+  { id: '1873', user_id: '1', session_id: 'L7TBXIqCEjexSxA0AAAz' }
+]
+Error while ending session:  Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/var/www/inst.souta.ru/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
