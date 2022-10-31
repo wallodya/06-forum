@@ -1,0 +1,31 @@
+
+[class*="user-badge"] {
+    min-width: fit-content;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0.5em 1em !important;
+    cursor: pointer;
+}
+
+[class*="user-badge"]:hover {
+    scale: 1.05;
+}
+
+[class*="user-badge"] > .avatar-header {
+    align-self: center;
+}
+
+.badge-info-container, .badge-legend-container {
+    gap: 0;
+    justify-content: space-between;
+}
+
+.badge-legend-container {
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.badge-info-container {
+    align-items: flex-end;
+    justify-self: flex-end;
+}

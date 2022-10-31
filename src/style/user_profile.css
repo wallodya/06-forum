@@ -1,0 +1,42 @@
+.user-friends-container {
+    height: fit-content;
+    display: flex;
+    
+}
+
+.avatar-profile {
+    width: 12.5em;
+    height: 12.5em;
+    object-fit: cover;
+}
+
+.avatar-profile-loading {
+    background-color: var(--clr-primary-40);
+}
+
+.banned-label {
+    color: var(--clr-accent-100);
+    font-weight: bold;
+}
+
+.user-info-container {
+    justify-content: flex-start;
+    gap: 3em;
+    margin: var(--header-height) 0;
+    padding: var(--header-height) 2em;
+}
+
+.user-legend-container {
+    align-items: flex-start;
+    height: 100%;
+}
+
+.admin-controls {
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+
+.filepond--drop-label {
+    border: none;
+}

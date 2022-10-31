@@ -1,0 +1,12 @@
+.post-image {
+    border-radius: 0.5em;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-round-post {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0;
+}

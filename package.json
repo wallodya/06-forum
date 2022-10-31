@@ -3,11 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tanstack/react-query-devtools": "^4.13.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "filepond": "^4.30.4",
+    "filepond-plugin-file-metadata": "^1.0.8",
+    "filepond-plugin-file-rename": "^1.1.8",
+    "filepond-plugin-file-validate-size": "^2.2.7",
+    "filepond-plugin-file-validate-type": "^1.2.8",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-filepond": "^7.1.2",
+    "react-query": "^3.39.2",
+    "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -15,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "move": "rm -r build && react-scripts build && scp -r build root@62.113.97.215:../var/www/inst.souta.ru"
   },
   "eslintConfig": {
     "extends": [
