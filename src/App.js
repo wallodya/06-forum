@@ -25,8 +25,9 @@ export const App = () => {
                         <Route path="/profile" element={<Profile />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/register" element={<Register />} />
+                        <Route path="/404" element={<NotFound />} />
                         <Route path="/:login" element={<UserPage />} />
-                        <Route path="*" element={<NotFound />} />
+                        <Route path="*" element={<Login />} />
                     </Route>
                 </Routes>
             </LoginProvider>

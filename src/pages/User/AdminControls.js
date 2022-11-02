@@ -11,7 +11,14 @@ export const AdminControls = () => {
     return (
         <div className="container-flex-row admin-controls">
             <SecondaryButton text={is_banned ? "Remove ban" : "Ban"} onClick={handleBanUser}/>
-            <SecondaryButton text={"Delete"} onClick={handleDeleteUser}/>
+            <SecondaryButton 
+                text={"Delete"}
+                onClick={() => {
+                    if (window.confirm("You sure you want to delete this user?")) {
+                        handleDeleteUser()
+                    }
+                }}
+            />
         </div>
     )
 }

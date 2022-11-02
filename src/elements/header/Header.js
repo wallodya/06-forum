@@ -45,7 +45,7 @@ export const Header = ({ id }) => {
                         onClick={() => {
                             updateUser(null)
                             navigate("/login")
-                            window.location.reload()
+                            window.location.reload(true)
                         }}
                     />
                 </>

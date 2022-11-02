@@ -11,8 +11,8 @@ export const useFriends = () => useContext(FriendsContext)
 export const useFriendshipButton = () => useContext(UpdateFriendshipStatusContext)
 
 export const FriendsProvider = ({children}) => {
-    const { userOwner : { login, uuid : uuidOwner } } = useUser()
-    const { login : loginClient, uuid : uuidClient } = useLogin()
+    const { userOwner : { login, uuid : uuidOwner } } = useUser() ?? {}
+    const { login : loginClient, uuid : uuidClient } = useLogin() ?? {}
     const queryClient = useQueryClient()
 
     const {

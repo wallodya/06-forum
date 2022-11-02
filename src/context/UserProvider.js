@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from 'react-query'
 import { useNavigate } from 'react-router-dom'
 import { useLogin } from './LoginProvider'
@@ -37,10 +37,12 @@ export const UserProvider = ({ login,  children }) => {
     })
 
     if (isOwner) userOwner = userClient
-    if (userOwner === null)  {
-        console.log(userOwner)
-        navigate('/login')
-    }
+    useEffect(() => {
+        if (userOwner === null)  {
+            navigate('/404')
+        }
+    })
+
 
     const { mutate : handleBanUser } = useMutation(() => {
         changeBanStatus(login)
@@ -57,6 +59,7 @@ export const UserProvider = ({ login,  children }) => {
     } , {
             onSuccess: () => {
                 navigate('/admin')
+                queryClient.removeQueries(['users', login])
                 queryClient.invalidateQueries(['users', 'all'])
                 queryClient.invalidateQueries(['users', 'deleted'])
             }
@@ -64,7 +67,7 @@ export const UserProvider = ({ login,  children }) => {
     )
 
     return (
-        <UserContext.Provider value={{userOwner: userOwner, isOwner: isOwner}}>
+        <UserContext.Provider value={{userOwner: userOwner ?? {}, isOwner: isOwner}}>
             <DeleteUserContext.Provider value={handleDeleteUser}>
                 <BanUserContext.Provider value={handleBanUser}>
                     {children}

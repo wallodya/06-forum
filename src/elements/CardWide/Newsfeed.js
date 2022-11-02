@@ -25,11 +25,7 @@ export const Newsfeed = () => {
                 {
                     (
                         //renderinng button if admin or owner or friend and  not banned 
-                        (
-                            !isBanned
-                            &&
-                            (isOwner || isFriend)
-                        )
+                        !isBanned
                         ||
                         isAdmin
                     )

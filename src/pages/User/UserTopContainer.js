@@ -24,6 +24,8 @@ export const UserTopContainer = () => {
                 {
                     !isOwner
                     &&
+                    !is_banned
+                    &&
                     <PrimaryButton
                         text={isFriend ? 'Remove friend' : 'Add friend'}
                         onClick={handleFriendshipButton}
