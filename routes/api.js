@@ -62,7 +62,7 @@ api.delete('/post', (req, res) => {
         values: [id]
     })
     .then(() => {
-        
+        res.status(200).end()
     })
     .catch(err => {
         console.log('Error while deleting post: ', err)
