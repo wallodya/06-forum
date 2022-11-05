@@ -99,7 +99,7 @@ api.post('/post/new', (req, res) => {
         fs.rename(__dirname + '/tmp/' + post.imageName, __dirname + '/images/posts/' + name, err => {
             if (err && err.code === 'ENOENT') {
                 pool.query({
-                    text: `UPDATE post SET post_image = '../lib/img/default_post.png' WHERE id = $1`,
+                    text: `UPDATE post SET post_image = 'http://62.113.97.215/post/default_post.png' WHERE id = $1`,
                     values: [postID.rows[0].id]
                 })
                 .then(() => {
@@ -182,8 +182,20 @@ api.route('/user')
                 `,
             values: [login]
         })
-            .then(data => res.json(data.rowCount ? data.rows[0] : null))
-            .catch(err => console.log('Error while gettinng user: ', err))
+            // .then(data => res.json(data.rowCount ? data.rows[0] : null))
+            .then(data => {
+                data.rowCount
+                ?
+                res.json(data.rows[0])
+                :
+                pool.query({
+                    text: 'SELECT * FROM deleted_users WHERE user_login = $1',
+                    values: [login]
+                })
+                .then(data => res.json(data.rowCount ? 'deleted' : null))
+                .catch(err => 'Error while checking if user is deleted: ', err)
+            })
+            .catch(err => console.log('Error while getting user: ', err))
     })
     .delete((req,res) => {
         const { login } = req.body
@@ -274,11 +286,11 @@ api.post('/user/ban', (req, res) => {
     })
     .then(() => {
         console.log(`user ${login} banned/unbanned `)
-        res.sendStatus(200)
+        res.status(200).end()
     })
     .catch(err => {
         console.log('Error while banning user', err)
-        res.sendStatus(500)
+        res.status(500).end()
     })
 })
 
