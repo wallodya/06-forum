@@ -38,6 +38,10 @@ export const UserProvider = ({ login,  children }) => {
 
     if (isOwner) userOwner = userClient
     useEffect(() => {
+        if (userOwner === 'deleted') {
+            console.log('User was deleted')
+            navigate('/deleted')
+        }
         if (userOwner === null)  {
             navigate('/404')
         }

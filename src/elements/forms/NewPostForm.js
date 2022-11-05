@@ -46,7 +46,7 @@ export const NewPostForm = ({onSubmit : toggleModal}) => {
         })
     }, {
         onMutate: () => {
-                
+
         },
         onError: () => {
             console.log('error')
@@ -70,6 +70,7 @@ export const NewPostForm = ({onSubmit : toggleModal}) => {
                 }}
                 onSubmit={(event) => {
                     event.preventDefault()
+                    textField.current.value = ''
                     handlePostUpload()
                 }}
             >
@@ -130,7 +131,7 @@ export const NewPostForm = ({onSubmit : toggleModal}) => {
                         if (err) console.log('Error in onprocessfile: ', err)
                     }}
                 />
-                <PostTextInput ref={textField} onChange={setPostText}/>
+                <PostTextInput ref={textField} onChange={setPostText} defaultValue={postText}/>
 
                 <p
                     className="fw-bold fs-s text-accent-100"

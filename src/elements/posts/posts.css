@@ -6,7 +6,7 @@
 }
 
 .card-round-post {
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 0;
 }

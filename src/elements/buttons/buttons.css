@@ -9,8 +9,8 @@
 
 [class*="button-primary"] {
     background: var(--gradient-main);
-    /* border: 2px solid transparent; */
-    /* border-image: var(--gradient-main) 30 10 10 stretch; */
+    border: 2px solid transparent;
+    border-image: var(--gradient-main) 30 10 10 stretch;
     color: var(--clr-neutral-100);
     animation-name: submitButtonPop;
     animation-duration: 300ms;
@@ -33,9 +33,9 @@
 
 [class*="button-primary"]:hover {
     color: var(--clr-primary-100);
-    border: none;
-    /* border: 2px solid;
-    border-image: var(--gradient-main) 30 10 10 stretch; */
+    /* border: none; */
+    border: 2px solid;
+    border-image: var(--gradient-main) 30 10 10 stretch;
     background: none;
 }
 
@@ -52,7 +52,7 @@
 
 .button-primary-disabled {
     background: none;
-    border: none;
+    border: 2px solid transparent;
     background-color: var(--clr-primary-60);
     cursor: default;
     pointer-events: none;

@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { labelStyles } from "./utils";
 import { toggleLabel } from "./utils";
 
-export const PostTextInput = React.forwardRef(({ onChange : setPostText }, textField) => {
+export const PostTextInput = React.forwardRef(({ onChange : setPostText , defaultValue: postText}, textField) => {
 
     const label = useRef()
 
@@ -26,7 +26,7 @@ export const PostTextInput = React.forwardRef(({ onChange : setPostText }, textF
                 title="Should contain from 4 to 15 characters"
                 className="input-field"
                 ref={textField}
-                onChange={() => {
+                onInput={() => {
                     toggleLabel(textField, label)
                     setPostText(textField.current.value)
                 }}

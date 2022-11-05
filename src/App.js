@@ -6,6 +6,7 @@ import { Profile } from "./pages/Profile";
 import { Register } from "./pages/Register";
 import { UserPage } from "./pages/UserPage";
 import { NotFound } from "./NotFound";
+import { DeletedUser } from "./pages/User/DeletedUser";
 import { Layout } from "./Layout";
 import './style/global.css'
 import './style/reset.css'
@@ -25,6 +26,7 @@ export const App = () => {
                         <Route path="/profile" element={<Profile />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/register" element={<Register />} />
+                        <Route path="/deleted" element={<DeletedUser />} />
                         <Route path="/404" element={<NotFound />} />
                         <Route path="/:login" element={<UserPage />} />
                         <Route path="*" element={<Login />} />
