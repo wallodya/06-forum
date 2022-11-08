@@ -12,6 +12,7 @@ export const Header = ({ id }) => {
     const navigate = useNavigate();
 
     const user = useLogin()
+    const isLoggedIn = !!user?.uuid
     const updateUser = useLoginUpdate()
 
     return (
@@ -25,7 +26,7 @@ export const Header = ({ id }) => {
             />
         }
         {
-            user
+            isLoggedIn
                 ?
                 <>
                     <Link to={"/" + user.login} style={{ marginLeft: 'auto' }}>

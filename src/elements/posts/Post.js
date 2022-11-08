@@ -1,12 +1,12 @@
 import React from "react";
 import { SecondaryButton } from "../buttons/SecondaryButton";
 import './posts.css'
-import default_post_pic from './default_post.png'
 import { useUser } from "../../context/UserProvider";
 import { useLogin } from "../../context/LoginProvider";
 import { useMutation, useQueryClient } from "react-query";
 import { deletePost } from "../../api/api";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/opacity.css'
 
 export const Post = ({ post }) => {
     const queryClient = useQueryClient()
@@ -14,7 +14,18 @@ export const Post = ({ post }) => {
     const { userOwner: { uuid } } = useUser()
 
     const { mutate: handlePostDelete } = useMutation(() => deletePost(post.id), {
-        onSuccess: () => {
+        onMutate: async () => {
+            await queryClient.cancelQueries({ queryKey: ['posts', uuid] })
+            const previousPosts = queryClient.getQueryData(['posts', uuid])
+            queryClient.setQueryData(['posts', uuid], posts => posts.filter(p => p.id !== post.id))
+            console.log('query data: ', previousPosts)
+            return { previousPosts }
+        },
+        onError : (err, _, { previousPosts }) => {
+            console.log('Error occured while deleting the post: ', err)
+            queryClient.setQueryData(['posts', uuid], previousPosts)
+        },
+        onSettled: () => {
             queryClient.invalidateQueries(['posts', uuid])
         }
     })

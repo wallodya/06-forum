@@ -11,7 +11,9 @@ import default_prof_pic from '../../lib/img/default_prof_pic.png'
 
 export const UserTopContainer = () => {
     const { isOwner, userOwner : { is_banned, uuid } } = useUser()
-    const { is_admin } = useLogin()
+    // const user = useLogin()
+    const { is_admin, uuid : uuidClient } = useLogin()
+    const isloggedIn = !!uuidClient
     const { isFriend } = useFriends()
     const handleFriendshipButton = useFriendshipButton()
     return (
@@ -21,7 +23,9 @@ export const UserTopContainer = () => {
                 <Username />
                 <OnlineStatus isLarge={true} isBanned={is_banned} uuid={uuid}/>
                 <Email />
-                {
+                {  
+                    isloggedIn
+                    &&
                     !isOwner
                     &&
                     !is_banned

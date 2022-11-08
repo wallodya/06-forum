@@ -9,13 +9,15 @@ const LoginUpdateContext = React.createContext()
 export const useLogin = () => useContext(LoginContext)
 export const useLoginUpdate = () => useContext(LoginUpdateContext)
 
+const emptyUser = {uuid: 0, login: '_', is_admin: false, is_banned: false}
+
 const LoginProvider = ({children}) => {
-    const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")) || null)
+    const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")) || emptyUser)
 
     const updateUser = async (login) => {
         localStorage.clear()
         if (!login) {
-            setUser(null)
+            setUser(emptyUser)
             return
         }
         const data = await getUserData(login)

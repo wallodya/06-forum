@@ -45,9 +45,6 @@ export const NewPostForm = ({onSubmit : toggleModal}) => {
 		    imageName: `postimageby_${uuid}.jpg`
         })
     }, {
-        onMutate: () => {
-
-        },
         onError: () => {
             console.log('error')
             setIsLoginFailMessageShown(true)
