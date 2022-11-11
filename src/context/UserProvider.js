@@ -45,7 +45,7 @@ export const UserProvider = ({ login,  children }) => {
         if (userOwner === null)  {
             navigate('/404')
         }
-    })
+    }, [userOwner])
 
 
     const { mutate : handleBanUser } = useMutation(() => {
