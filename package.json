@@ -28,7 +28,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "move": "rm -r build && react-scripts build && scp -r build root@62.113.97.215:../var/www/inst.souta.ru"
   },
   "eslintConfig": {
     "extends": [
