@@ -1,7 +1,7 @@
 # Mock forum/social network with React.js
 
-Simple web app with React on front-end and Exress.js with Postgres on back-end
-__To see back-end check out dev_back branch inn this repo__
+Simple web app with React on front-end and Exress.js with Postgres on back-end.<br> 
+To see back-end check out dev_back branch inn this repo. 
 
 There are also React Router and React Query to manange client-side routing
 and queries and FilePond component for image uploading.
