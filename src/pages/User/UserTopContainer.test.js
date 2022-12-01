@@ -61,20 +61,20 @@ describe('top container for qqqq', () => {
     test('should be banned', async () => {
         await setTimeout(() => {
             expect(screen.getByText('banned')).toBeInTheDocument()
-        })
+        }, 3000)
     })
 
     test('login should be qqqq', async() => {
         await setTimeout(async () => {
             const login = await screen.findByText("qqqq")
             expect(login).toBeInTheDocument()
-        })
+        }, 3000)
     })
 
     test('email should be qq-qq@qq', async () => {
         await setTimeout( async () => {
             const email = await screen.findByText("qq-qq@qq")
             expect(email).toBeInTheDocument()
-        })
+        }, 3000)
     })
 })
